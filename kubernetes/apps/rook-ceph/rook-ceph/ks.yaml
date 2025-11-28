@@ -32,8 +32,6 @@ spec:
       app.kubernetes.io/name: rook-ceph
   dependsOn:
     - name: rook-ceph
-    - name: volsync
-      namespace: system
   healthChecks:
     - apiVersion: helm.toolkit.fluxcd.io/v2
       kind: HelmRelease
@@ -49,7 +47,7 @@ spec:
       failed: status.ceph.health == 'HEALTH_ERR'
       current: status.ceph.health in ['HEALTH_OK', 'HEALTH_WARN']
   interval: 1h
-  path: ./kubernetes/apps/default/echo/app
+  path: ./kubernetes/apps/rook-ceph/rook-ceph/cluster
   postBuild:
     substituteFrom:
       - name: cluster-secrets
@@ -59,5 +57,5 @@ spec:
     kind: GitRepository
     name: flux-system
     namespace: flux-system
-  targetNamespace: default
+  targetNamespace: rook-ceph
   wait: false

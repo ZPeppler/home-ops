@@ -1,0 +1,30 @@
+---
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  name: rook-ceph-cluster
+spec:
+  chartRef:
+    kind: OCIRepository
+    name: rook-ceph-cluster
+  interval: 1h
+  values:
+    monitors:
+      enabled: true
+      createPromethusRule: true
+    toolbox:
+      enabled: true
+    cephClusterSpec:
+      cephConfig:
+        global:
+          bdev_enable_disard: "true"
+          bdev_async_discard_threads: "1"
+          osd_class_update_on_start: "false"
+          device_failure_protection_mode: local
+        mgr:
+          mgr/crash/warn_recent_interval: "7200"
+      cleanupPolicy:
+        wipeDevicesFromOtherClusters: true
+      crashCollector:
+        disable: false
+      csi:
