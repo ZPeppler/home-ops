@@ -8,6 +8,13 @@ spec:
     kind: OCIRepository
     name: longhorn
   interval: 1h
+  install:
+    remediation:
+      retries: -1
+  upgrade:
+    cleanupOnFail: true
+    remediation:
+      retries: 3
   values:
     longhornManager:
       nodeSelector:
