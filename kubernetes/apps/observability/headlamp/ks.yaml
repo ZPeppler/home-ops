@@ -8,7 +8,7 @@ spec:
     labels:
       app.kubernetes.io/name: headlamp
   interval: 1h
-  path: ./kubernetes/apps/default/headlamp/app
+  path: ./kubernetes/apps/observability/headlamp/app
   postBuild:
     substituteFrom:
       - name: cluster-secrets
