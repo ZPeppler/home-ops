@@ -9,4 +9,3 @@ components:
 resources:
   - ./namespace.yaml
   - ./headlamp/ks.yaml
-  - ./kube-prometheus-stack/ks.yaml
