@@ -67,10 +67,4 @@ spec:
     # ceph fs fail ceph-filesystem && ceph fs rm ceph-filesystem --yes-i-really-mean-it
     cephFileSystems: []
 
-    cephBlockPoolsVolumeSnapshotClass:
-      enabled: true
-      name: csi-ceph-block
-      isDefault: true
-      deletionPolicy: Delete
-
     cephObjectStores: []
