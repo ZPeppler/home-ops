@@ -15,7 +15,7 @@ spec:
       serviceMonitor:
         enabled: true
     image:
-      repository: ghrc.io/rook/ceph
+      repository: ghcr.io/rook/rook-ceph
     monitoring:
       enabled: true
     resources:
