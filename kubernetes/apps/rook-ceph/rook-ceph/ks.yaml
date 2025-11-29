@@ -27,7 +27,7 @@ spec:
     labels:
       app.kubernetes.io/name: rook-ceph
   dependsOn:
-    - name: rook-ceph-operator
+    - name: rook-ceph
   healthChecks:
     - apiVersion: ceph.rook.io/v1
       kind: CephCluster
