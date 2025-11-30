@@ -1,5 +1,5 @@
 ---
-clusterName: kubernetes
+clusterName: talos-k8s
 
 talosVersion: "${talosVersion}"
 kubernetesVersion: "${kubernetesVersion}"
@@ -18,7 +18,7 @@ cniConfig:
   name: none
 
 nodes:
-  - hostname: "talos1"
+  - hostname: "talos-c1"
     ipAddress: "192.168.1.245"
     installDisk: "/dev/nvme0n1"
     machineSpec:
@@ -37,7 +37,7 @@ nodes:
         mtu: 1500
         vip:
           ip: "192.168.1.244"
-  - hostname: "talos2"
+  - hostname: "talos-c2"
     ipAddress: "192.168.1.246"
     installDisk: "/dev/nvme0n1"
     machineSpec:
@@ -56,7 +56,7 @@ nodes:
         mtu: 1500
         vip:
           ip: "192.168.1.244"
-  - hostname: "talos3"
+  - hostname: "talos-c3"
     ipAddress: "192.168.1.247"
     installDisk: "/dev/nvme0n1"
     machineSpec:
@@ -75,6 +75,57 @@ nodes:
         mtu: 1500
         vip:
           ip: "192.168.1.244"
+  - hostname: "talos-w1"
+    ipAddress: "192.168.1.248"
+    installDisk: "/dev/sda"
+    machineSpec:
+      secureboot: false
+    talosImageURL: factory.talos.dev/installer/ddf38e55e30aa9b2bb0b765054ed63444dc00244ab8bb4ad4ad92486602285f8
+    controlPlane: false
+    networkInterfaces:
+      - deviceSelector:
+          hardwareAddr: "bc:24:11:c5:ae:32"
+        dhcp: false
+        addresses:
+          - "192.168.1.248/24"
+        routes:
+          - network: "0.0.0.0/0"
+            gateway: "192.168.1.1"
+        mtu: 1500
+  - hostname: "talos-w2"
+    ipAddress: "192.168.1.249"
+    installDisk: "/dev/sda"
+    machineSpec:
+      secureboot: false
+    talosImageURL: factory.talos.dev/installer/ddf38e55e30aa9b2bb0b765054ed63444dc00244ab8bb4ad4ad92486602285f8
+    controlPlane: false
+    networkInterfaces:
+      - deviceSelector:
+          hardwareAddr: "bc:24:11:66:3c:7b"
+        dhcp: false
+        addresses:
+          - "192.168.1.249/24"
+        routes:
+          - network: "0.0.0.0/0"
+            gateway: "192.168.1.1"
+        mtu: 1500
+  - hostname: "talos-w3"
+    ipAddress: "192.168.1.250"
+    installDisk: "/dev/sda"
+    machineSpec:
+      secureboot: false
+    talosImageURL: factory.talos.dev/installer/ddf38e55e30aa9b2bb0b765054ed63444dc00244ab8bb4ad4ad92486602285f8
+    controlPlane: false
+    networkInterfaces:
+      - deviceSelector:
+          hardwareAddr: "bc:24:11:da:4b:b5"
+        dhcp: false
+        addresses:
+          - "192.168.1.250/24"
+        routes:
+          - network: "0.0.0.0/0"
+            gateway: "192.168.1.1"
+        mtu: 1500
 
 # Global patches
 patches:
@@ -88,4 +139,3 @@ patches:
 controlPlane:
   patches:
     - "@./patches/controller/cluster.yaml"
-

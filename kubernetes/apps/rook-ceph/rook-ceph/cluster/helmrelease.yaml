@@ -13,10 +13,7 @@ spec:
       enabled: true
     route:
       dashboard:
-        host:
-          names: ["rook.${SECRET_DOMAIN}"]
-          path: /
-          pathType: PathPrefix
+        hostname: ["rook.${SECRET_DOMAIN}"]
         parentRefs:
           - name: envoy-external
             namespace: network
