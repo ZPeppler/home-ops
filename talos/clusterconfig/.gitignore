@@ -2,3 +2,9 @@ kubernetes-talos1.yaml
 kubernetes-talos2.yaml
 kubernetes-talos3.yaml
 talosconfig
+talos-k8s-talos-c1.yaml
+talos-k8s-talos-c2.yaml
+talos-k8s-talos-c3.yaml
+talos-k8s-talos-w1.yaml
+talos-k8s-talos-w2.yaml
+talos-k8s-talos-w3.yaml
