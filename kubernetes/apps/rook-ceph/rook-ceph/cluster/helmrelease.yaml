@@ -39,8 +39,18 @@ spec:
         connection:
           requireMsgr2: true
       storage:
-        useAllNodes: true
-        useAllDevices: true
+        useAllNodes: false
+        useAllDevices: false
+        nodes:
+          - name: "talos-w1"
+            devices:
+              - name: "sdb"
+          - name: "talos-w2"
+            devices:
+              - name: "sdb"
+          - name: "talos-w3"
+            devices:
+              - name: "sdb"
 
     cephBlockPools:
       - name: ceph-blockpool
