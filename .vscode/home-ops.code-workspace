@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"**/*.json5": "json5"
+		},
+		"vs-kubernetes": {
+			"vs-kubernetes.kubeconfig": "/home/zpeppler/git-repos/home-ops/kubeconfig",
+			"vs-kubernetes.knownKubeconfigs": [
+				"/home/zpeppler/git-repos/home-ops/kubeconfig"
+			]
+		},
+		"yaml.schemaStore.enable": true,
+		"yaml.schemas": {
+			"kubernetes": "./kubernetes/**/*.yaml"
+		}
+	}
+}

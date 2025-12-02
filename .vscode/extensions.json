@@ -3,6 +3,15 @@
     "blueglassblock.better-json5",
     "irongeek.vscode-env",
     "redhat.vscode-yaml",
-    "signageos.signageos-vscode-sops"
+    "signageos.signageos-vscode-sops",
+    "redhat.ansible",
+    "naumovs.color-highlight",
+    "waderyan.gitblame",
+    "oderwat.indent-rainbow",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "pkief.material-icon-theme",
+    "redhat.vscode-redhat-account",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "vscodevim.vim"
   ]
 }
