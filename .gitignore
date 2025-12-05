@@ -21,3 +21,5 @@ talosconfig
 Thumbs.db
 secrets
 secrets/
+test-runs
+test-runs/
