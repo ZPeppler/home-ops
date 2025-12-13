@@ -7,6 +7,6 @@ spec:
   resources:
     requests:
       storage: 25Gi
-  volumeMode: Filesystem
+  storageClassName: ceph-block
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
