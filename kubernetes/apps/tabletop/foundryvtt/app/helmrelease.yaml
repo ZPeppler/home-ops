@@ -71,8 +71,4 @@ spec:
             port: *port
     persistence:
       data:
-        existingClaim: "{{ .Release.Name }}"
-      npm-cache:
-        type: emptyDir
-        globalMounts:
-          - path: /home/node/.npm
+        existingClaim: "{{ .Release.Name }}-pvc"
