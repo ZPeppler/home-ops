@@ -9,7 +9,7 @@ spec:
     - name: rook-ceph-cluster
       namespace: rook-ceph
   interval: 1h
-  path: ./kubernetes/apps/foundryvtt/foundryvtt/app
+  path: ./kubernetes/apps/tabletop/foundryvtt/app
   prune: true
   retryInterval: 2m
   sourceRef:
