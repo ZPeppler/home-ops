@@ -19,11 +19,7 @@
 			"kubernetes": "./kubernetes/**/*.yaml"
 		},
 		"workbench.colorCustomizations": {
-			"editorCursor.foreground": "#ffffff",
-			"activityBarBadge.background": "#0ee420b4",
-			"activityBarBadge.foreground": "#000000",
-			"statusBar.background": "#0319e2",
-			"statusBar.foreground": "#f3cd24"
+			"editorCursor.foreground": "#e9dbb7"
 		}
 	}
 }
