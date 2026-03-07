@@ -9,3 +9,4 @@ components:
 resources:
   - ./namespace.yaml
   - ./headlamp/ks.yaml
+  - ./rancher/ks.yaml

@@ -1,0 +1,20 @@
+---
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  name: rancher
+spec:
+  chartRef:
+    kind: OCIRepository
+    name: rancher
+  interval: 30m
+  values:
+    replicas: 1
+    hostname: rancher.${SECRET_DOMAIN}
+    ingress:
+      enabled: false
+  valuesFrom:
+    - kind: Secret
+      name: rancher-secret
+      valuesKey: password
+      targetPath: bootstrapPassword
