@@ -9,3 +9,4 @@ components:
 resources:
   - ./namespace.yaml
   - ./foundryvtt/ks.yaml
+  - ./foundryvtt-11/ks.yaml
