@@ -31,6 +31,11 @@ spec:
       namespace: database
     - name: external-secrets
       namespace: external-secrets
+  healthChecks:
+    - apiVersion: postgresql.cnpg.io/v1
+      kind: Cluster
+      name: postgres
+      namespace: database
   targetNamespace: database
   commonMetadata:
     labels:
