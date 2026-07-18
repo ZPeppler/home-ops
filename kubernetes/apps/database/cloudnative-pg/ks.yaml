@@ -9,7 +9,7 @@ spec:
   commonMetadata:
     labels:
       app.kubernetes.io/name: cloudnative-pg
-  path: ./kubernetes/apps/database/cloudnative-pg/app
+  path: ./kubernetes/apps/database/cloudnative-pg/operator
   prune: true
   sourceRef:
     kind: GitRepository
