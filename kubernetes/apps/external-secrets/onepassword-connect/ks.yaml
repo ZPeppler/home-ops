@@ -3,11 +3,11 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: &app onepassword-connect
+  name: onepassword-connect
 spec:
   commonMetadata:
     labels:
-      app.kubernetes.io/name: *app
+      app.kubernetes.io/name: onepassword-connect
   dependsOn:
     - name: external-secrets
   interval: 1h
