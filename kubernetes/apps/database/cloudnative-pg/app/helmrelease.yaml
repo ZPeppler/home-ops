@@ -18,8 +18,10 @@ kind: HelmRelease
 metadata:
   name: cloudnative-pg
 spec:
+  chartRef:
+    kind: OCIRepository
+    name: cloudnative-pg
   interval: 24h
-  maxHistory: 2
   install:
     remediation:
       retries: 3
@@ -37,7 +39,10 @@ spec:
     monitoring:
       podMonitorEnabled: false
       grafanaDashboard:
-        create: true
-  chartRef:
-    kind: OCIRepository
-    name: cloudnative-pg
+        create: "true"
+    resources:
+      requests:
+        cpu: 15m
+        memory: 192Mi
+      limits:
+        memory: 384Mi
