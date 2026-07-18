@@ -8,8 +8,6 @@ spec:
   commonMetadata:
     labels:
       app.kubernetes.io/name: *app
-  dependsOn:
-    - name: external-secrets
   interval: 1h
   path: ./kubernetes/apps/security/onepassword-connect/app
   prune: true
