@@ -16,3 +16,5 @@ spec:
       memory: "1Gi"
     limits:
       memory: "2Gi"
+  superuserSecret:
+    name: postgres-cluster-secret
