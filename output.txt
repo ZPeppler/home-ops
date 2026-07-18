@@ -1,0 +1,392 @@
+{"log_message":"(I) no database found, will retry in 1s","timestamp":"2026-07-18T20:43:53.270610245Z","level":3}
+{"log_message":"(I) disabling bus peer auto-discovery","timestamp":"2026-07-18T20:43:54.277405933Z","level":3}
+{"log_message":"(I) connected to bus peer at localhost:11221","timestamp":"2026-07-18T20:43:54.280051292Z","level":3}
+{"log_message":"(I) starting 1Password Connect API ...","timestamp":"2026-07-18T20:43:54.281632363Z","level":3}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:44:14.982037184Z","level":3,"scope":{"request_id":"ccaf0666-9856-460d-98d9-c5783fd662b4"}}
+{"log_message":"(I) GET /health completed (200: OK) in 1ms","timestamp":"2026-07-18T20:44:14.98337174Z","level":3,"scope":{"request_id":"ccaf0666-9856-460d-98d9-c5783fd662b4"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:44:14.984973564Z","level":3,"scope":{"request_id":"49232570-9973-424f-85bf-9b61f48119b5"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:44:14.985794274Z","level":3,"scope":{"request_id":"49232570-9973-424f-85bf-9b61f48119b5"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:44:22.415194858Z","level":3,"scope":{"request_id":"a9ac47e3-4b00-46ab-b2f8-3d28ec3a8972"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:44:22.415278859Z","level":3,"scope":{"request_id":"a9ac47e3-4b00-46ab-b2f8-3d28ec3a8972"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:44:24.985750673Z","level":3,"scope":{"request_id":"be138cdf-16a8-448f-87dd-a2436c594bc4"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:44:24.986475529Z","level":3,"scope":{"request_id":"be138cdf-16a8-448f-87dd-a2436c594bc4"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:44:34.986032821Z","level":3,"scope":{"request_id":"126aa22f-9f8b-46fe-8795-f04bc16163b1"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:44:34.98672041Z","level":3,"scope":{"request_id":"126aa22f-9f8b-46fe-8795-f04bc16163b1"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:44:44.98536268Z","level":3,"scope":{"request_id":"8963b3d9-6eda-465f-9410-7d37c5e6adac"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:44:44.986071472Z","level":3,"scope":{"request_id":"8963b3d9-6eda-465f-9410-7d37c5e6adac"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:44:52.415210466Z","level":3,"scope":{"request_id":"90c9c761-26b0-4767-be25-361a49f75f92"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:44:52.415290269Z","level":3,"scope":{"request_id":"90c9c761-26b0-4767-be25-361a49f75f92"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:44:54.985860391Z","level":3,"scope":{"request_id":"e37cbe39-df03-4187-886b-c374ac917678"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:44:54.986542587Z","level":3,"scope":{"request_id":"e37cbe39-df03-4187-886b-c374ac917678"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:45:04.985412583Z","level":3,"scope":{"request_id":"3572922f-211d-4c09-a562-a9b746dd7eac"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:45:04.986114528Z","level":3,"scope":{"request_id":"3572922f-211d-4c09-a562-a9b746dd7eac"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:45:14.985749922Z","level":3,"scope":{"request_id":"0bdec23f-6722-40da-8cfe-b5ea64e38e7d"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:45:14.986510974Z","level":3,"scope":{"request_id":"0bdec23f-6722-40da-8cfe-b5ea64e38e7d"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:45:22.41510157Z","level":3,"scope":{"request_id":"39720823-fac6-4f2e-9469-946458ea13c3"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:45:22.415208251Z","level":3,"scope":{"request_id":"39720823-fac6-4f2e-9469-946458ea13c3"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:45:24.985210933Z","level":3,"scope":{"request_id":"40b43ddf-e879-4eb3-93fa-14b5f2b89e1a"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:45:24.986080121Z","level":3,"scope":{"request_id":"40b43ddf-e879-4eb3-93fa-14b5f2b89e1a"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:45:34.985957983Z","level":3,"scope":{"request_id":"6df37e90-4f32-41f5-af04-24369d6c9615"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:45:34.986575034Z","level":3,"scope":{"request_id":"6df37e90-4f32-41f5-af04-24369d6c9615"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:45:44.985244312Z","level":3,"scope":{"request_id":"796ca42b-7f1b-41e5-a344-61cc51bdaba1"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:45:44.985970562Z","level":3,"scope":{"request_id":"796ca42b-7f1b-41e5-a344-61cc51bdaba1"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:45:52.414977585Z","level":3,"scope":{"request_id":"04804d30-5552-4050-a838-557b5e3399bc"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:45:52.415077476Z","level":3,"scope":{"request_id":"04804d30-5552-4050-a838-557b5e3399bc"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:45:54.985024086Z","level":3,"scope":{"request_id":"0b3c08f8-db79-40d3-800b-9784aa097a72"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:45:54.985692148Z","level":3,"scope":{"request_id":"0b3c08f8-db79-40d3-800b-9784aa097a72"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:46:04.985292049Z","level":3,"scope":{"request_id":"314aab77-faaf-4b05-ae08-0999c704b459"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:46:04.985970839Z","level":3,"scope":{"request_id":"314aab77-faaf-4b05-ae08-0999c704b459"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:46:14.985841753Z","level":3,"scope":{"request_id":"e2b4d408-d76a-4083-80cf-90d723f96a63"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:46:14.986521385Z","level":3,"scope":{"request_id":"e2b4d408-d76a-4083-80cf-90d723f96a63"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:46:22.414713249Z","level":3,"scope":{"request_id":"fea8bcfc-cc0a-4d06-9dfa-873fb60eac3f"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:46:22.414824661Z","level":3,"scope":{"request_id":"fea8bcfc-cc0a-4d06-9dfa-873fb60eac3f"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:46:24.985282273Z","level":3,"scope":{"request_id":"342dce89-c3ad-437f-b8c7-fd4993e22ad6"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:46:24.985932646Z","level":3,"scope":{"request_id":"342dce89-c3ad-437f-b8c7-fd4993e22ad6"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:46:34.98530544Z","level":3,"scope":{"request_id":"2944f72a-50fd-4ae7-ad95-f886f8db8981"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:46:34.985905835Z","level":3,"scope":{"request_id":"2944f72a-50fd-4ae7-ad95-f886f8db8981"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:46:44.985334228Z","level":3,"scope":{"request_id":"07d95f40-397b-4b64-96ea-348eec5915f2"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:46:44.986183425Z","level":3,"scope":{"request_id":"07d95f40-397b-4b64-96ea-348eec5915f2"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:46:52.415614227Z","level":3,"scope":{"request_id":"9af038f2-31ab-45ba-a2fe-ec13a1d9d3be"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:46:52.415694762Z","level":3,"scope":{"request_id":"9af038f2-31ab-45ba-a2fe-ec13a1d9d3be"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:46:54.985790119Z","level":3,"scope":{"request_id":"7cbaddfd-d70c-4169-b67a-2c8695293527"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:46:54.986484678Z","level":3,"scope":{"request_id":"7cbaddfd-d70c-4169-b67a-2c8695293527"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:47:04.986021681Z","level":3,"scope":{"request_id":"a66f04ba-2d58-42ca-9fb5-1b6105eb75aa"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:47:04.986642613Z","level":3,"scope":{"request_id":"a66f04ba-2d58-42ca-9fb5-1b6105eb75aa"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:47:14.985940017Z","level":3,"scope":{"request_id":"98a15e94-d7fa-4cff-ae7f-ebdcc5ea777e"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:47:14.986626239Z","level":3,"scope":{"request_id":"98a15e94-d7fa-4cff-ae7f-ebdcc5ea777e"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:47:22.414640975Z","level":3,"scope":{"request_id":"3a062bea-7eb9-46fe-a6d8-ecf75e4f98a7"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:47:22.414724843Z","level":3,"scope":{"request_id":"3a062bea-7eb9-46fe-a6d8-ecf75e4f98a7"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:47:24.985744311Z","level":3,"scope":{"request_id":"16f923f2-3a35-4962-9359-48a85da7931b"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:47:24.98645598Z","level":3,"scope":{"request_id":"16f923f2-3a35-4962-9359-48a85da7931b"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:47:34.985947942Z","level":3,"scope":{"request_id":"a846cf73-d6d2-4aab-9a52-02c84d6afd00"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:47:34.986867524Z","level":3,"scope":{"request_id":"a846cf73-d6d2-4aab-9a52-02c84d6afd00"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:47:44.985598418Z","level":3,"scope":{"request_id":"3dccd0a1-2df9-4aeb-a8b6-b3246b04288e"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:47:44.986346891Z","level":3,"scope":{"request_id":"3dccd0a1-2df9-4aeb-a8b6-b3246b04288e"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:47:52.415293899Z","level":3,"scope":{"request_id":"eeeb5bf1-37a2-49de-9ba9-ffac1913a37a"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:47:52.415382486Z","level":3,"scope":{"request_id":"eeeb5bf1-37a2-49de-9ba9-ffac1913a37a"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:47:54.98571798Z","level":3,"scope":{"request_id":"6dff9782-b784-4e86-b0fc-474a9289cb6e"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:47:54.986356665Z","level":3,"scope":{"request_id":"6dff9782-b784-4e86-b0fc-474a9289cb6e"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:48:04.985052705Z","level":3,"scope":{"request_id":"d998c704-f031-4cc0-8380-368347969c43"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:48:04.985663004Z","level":3,"scope":{"request_id":"d998c704-f031-4cc0-8380-368347969c43"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:48:14.985599395Z","level":3,"scope":{"request_id":"c197e656-1552-4cfc-98b3-9f658fc86015"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:48:14.986292354Z","level":3,"scope":{"request_id":"c197e656-1552-4cfc-98b3-9f658fc86015"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:48:22.415222059Z","level":3,"scope":{"request_id":"9e6e7ab2-2b27-4b9a-8006-057346594910"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:48:22.415313324Z","level":3,"scope":{"request_id":"9e6e7ab2-2b27-4b9a-8006-057346594910"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:48:24.98512296Z","level":3,"scope":{"request_id":"ac5a9bf6-bca5-4546-8ad5-c8d98aedf6e8"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:48:24.985940217Z","level":3,"scope":{"request_id":"ac5a9bf6-bca5-4546-8ad5-c8d98aedf6e8"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:48:34.985836556Z","level":3,"scope":{"request_id":"a78d8b3e-4abc-42d0-933b-fbec3fb95bc2"}}
+{"log_message":"(I) GET /health completed (200: OK) in 1ms","timestamp":"2026-07-18T20:48:34.986740421Z","level":3,"scope":{"request_id":"a78d8b3e-4abc-42d0-933b-fbec3fb95bc2"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:48:44.984978807Z","level":3,"scope":{"request_id":"58773dc5-13fc-4a86-a71d-01ae737fcba2"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:48:44.985640563Z","level":3,"scope":{"request_id":"58773dc5-13fc-4a86-a71d-01ae737fcba2"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:48:52.41560147Z","level":3,"scope":{"request_id":"d412049e-010c-4421-9655-db35497b35f9"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:48:52.415689268Z","level":3,"scope":{"request_id":"d412049e-010c-4421-9655-db35497b35f9"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:48:54.98506003Z","level":3,"scope":{"request_id":"ae72cfec-90d6-4077-b1ba-f5e034ccdec2"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:48:54.985649008Z","level":3,"scope":{"request_id":"ae72cfec-90d6-4077-b1ba-f5e034ccdec2"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:49:04.985088548Z","level":3,"scope":{"request_id":"b97d1a4e-0357-4fbd-aaea-6c6e7330bed2"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:49:04.985709527Z","level":3,"scope":{"request_id":"b97d1a4e-0357-4fbd-aaea-6c6e7330bed2"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:49:14.985032222Z","level":3,"scope":{"request_id":"b0d2c6e1-e15a-416a-b7d2-b63ce8968d7f"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:49:14.985892284Z","level":3,"scope":{"request_id":"b0d2c6e1-e15a-416a-b7d2-b63ce8968d7f"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:49:22.414600698Z","level":3,"scope":{"request_id":"4be45cb5-f673-4497-9e37-3ce556f95ca5"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:49:22.41474499Z","level":3,"scope":{"request_id":"4be45cb5-f673-4497-9e37-3ce556f95ca5"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:49:24.98529034Z","level":3,"scope":{"request_id":"013ba58e-4ff9-4f46-9a66-0c24ecf54e44"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:49:24.985959749Z","level":3,"scope":{"request_id":"013ba58e-4ff9-4f46-9a66-0c24ecf54e44"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:49:34.985402375Z","level":3,"scope":{"request_id":"0c513dbb-2b20-44c3-96bb-6a95669925b7"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:49:34.986076041Z","level":3,"scope":{"request_id":"0c513dbb-2b20-44c3-96bb-6a95669925b7"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:49:44.985323316Z","level":3,"scope":{"request_id":"17dab928-86cf-4aa4-9140-d0b3c3116421"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:49:44.985980155Z","level":3,"scope":{"request_id":"17dab928-86cf-4aa4-9140-d0b3c3116421"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:49:52.415811146Z","level":3,"scope":{"request_id":"de66c76b-6380-4117-922a-9521ecd1df81"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:49:52.415907393Z","level":3,"scope":{"request_id":"de66c76b-6380-4117-922a-9521ecd1df81"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:49:54.985382701Z","level":3,"scope":{"request_id":"2457657a-94b9-4db6-8452-a86e20a96171"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:49:54.986283923Z","level":3,"scope":{"request_id":"2457657a-94b9-4db6-8452-a86e20a96171"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:50:04.985665488Z","level":3,"scope":{"request_id":"e3dd47a3-4590-411a-b747-bfb15e85ead1"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:50:04.986470521Z","level":3,"scope":{"request_id":"e3dd47a3-4590-411a-b747-bfb15e85ead1"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:50:14.985501066Z","level":3,"scope":{"request_id":"e7abb2c9-9734-49b2-9534-81b7f3f81c8b"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:50:14.986174619Z","level":3,"scope":{"request_id":"e7abb2c9-9734-49b2-9534-81b7f3f81c8b"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:50:22.416011086Z","level":3,"scope":{"request_id":"3095865f-0d87-4ef6-9f23-6957c44193a6"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:50:22.416165605Z","level":3,"scope":{"request_id":"3095865f-0d87-4ef6-9f23-6957c44193a6"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:50:24.984887104Z","level":3,"scope":{"request_id":"e03529a1-f731-4329-97ea-835c61ee10ab"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:50:24.985558811Z","level":3,"scope":{"request_id":"e03529a1-f731-4329-97ea-835c61ee10ab"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:50:34.986088619Z","level":3,"scope":{"request_id":"2d5e1281-fc22-4c9e-a8f0-20895425fb81"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:50:34.986703218Z","level":3,"scope":{"request_id":"2d5e1281-fc22-4c9e-a8f0-20895425fb81"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:50:44.985383344Z","level":3,"scope":{"request_id":"22ea8897-8062-47f3-bc7c-c7e753153e1f"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:50:44.985976507Z","level":3,"scope":{"request_id":"22ea8897-8062-47f3-bc7c-c7e753153e1f"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:50:52.415250263Z","level":3,"scope":{"request_id":"8f960f7f-c808-4df6-acb2-b20132246e19"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:50:52.41534899Z","level":3,"scope":{"request_id":"8f960f7f-c808-4df6-acb2-b20132246e19"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:50:54.985508314Z","level":3,"scope":{"request_id":"f115d168-1641-4297-b725-ad23bb324fca"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:50:54.986352142Z","level":3,"scope":{"request_id":"f115d168-1641-4297-b725-ad23bb324fca"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22","timestamp":"2026-07-18T20:50:55.924021524Z","level":3,"scope":{"request_id":"fe2a97b5-b2bd-4100-aac3-2379e3a49fc3"}}
+{"log_message":"(I) notifying syncer of new token","timestamp":"2026-07-18T20:50:55.924553919Z","level":3,"scope":{"request_id":"fe2a97b5-b2bd-4100-aac3-2379e3a49fc3","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(E) Server: (failed to publishToken), Wrapped: (failed to FindCredentialsUniqueKey), failed to loadCredentialsFile: Server: (LoadLocalAuthV2 failed to credentialsDataFromBase64), illegal base64 data at input byte 0","timestamp":"2026-07-18T20:50:55.924799025Z","level":1,"scope":{"request_id":"fe2a97b5-b2bd-4100-aac3-2379e3a49fc3","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22 completed (500: Internal Server Error) in 0ms","timestamp":"2026-07-18T20:50:55.924936686Z","level":3,"scope":{"request_id":"fe2a97b5-b2bd-4100-aac3-2379e3a49fc3"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22","timestamp":"2026-07-18T20:50:55.94165875Z","level":3,"scope":{"request_id":"87d71c72-d0a9-43f6-9ba0-8d9a9b493003"}}
+{"log_message":"(I) notifying syncer of new token","timestamp":"2026-07-18T20:50:55.941931702Z","level":3,"scope":{"request_id":"87d71c72-d0a9-43f6-9ba0-8d9a9b493003","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(E) Server: (failed to publishToken), Wrapped: (failed to FindCredentialsUniqueKey), failed to loadCredentialsFile: Server: (LoadLocalAuthV2 failed to credentialsDataFromBase64), illegal base64 data at input byte 0","timestamp":"2026-07-18T20:50:55.941999816Z","level":1,"scope":{"request_id":"87d71c72-d0a9-43f6-9ba0-8d9a9b493003","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22 completed (500: Internal Server Error) in 0ms","timestamp":"2026-07-18T20:50:55.942047007Z","level":3,"scope":{"request_id":"87d71c72-d0a9-43f6-9ba0-8d9a9b493003"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22","timestamp":"2026-07-18T20:50:56.943003502Z","level":3,"scope":{"request_id":"cb2e6529-4930-4ecb-8057-c4662b7209d7"}}
+{"log_message":"(I) notifying syncer of new token","timestamp":"2026-07-18T20:50:56.943235674Z","level":3,"scope":{"request_id":"cb2e6529-4930-4ecb-8057-c4662b7209d7","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(E) Server: (failed to publishToken), Wrapped: (failed to FindCredentialsUniqueKey), failed to loadCredentialsFile: Server: (LoadLocalAuthV2 failed to credentialsDataFromBase64), illegal base64 data at input byte 0","timestamp":"2026-07-18T20:50:56.943329889Z","level":1,"scope":{"request_id":"cb2e6529-4930-4ecb-8057-c4662b7209d7","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22 completed (500: Internal Server Error) in 0ms","timestamp":"2026-07-18T20:50:56.943384522Z","level":3,"scope":{"request_id":"cb2e6529-4930-4ecb-8057-c4662b7209d7"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22","timestamp":"2026-07-18T20:51:00.964993481Z","level":3,"scope":{"request_id":"f5ea47a1-e210-401f-9f58-88c659f5c2c4"}}
+{"log_message":"(I) notifying syncer of new token","timestamp":"2026-07-18T20:51:00.96521535Z","level":3,"scope":{"request_id":"f5ea47a1-e210-401f-9f58-88c659f5c2c4","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(E) Server: (failed to publishToken), Wrapped: (failed to FindCredentialsUniqueKey), failed to loadCredentialsFile: Server: (LoadLocalAuthV2 failed to credentialsDataFromBase64), illegal base64 data at input byte 0","timestamp":"2026-07-18T20:51:00.96530355Z","level":1,"scope":{"request_id":"f5ea47a1-e210-401f-9f58-88c659f5c2c4","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22 completed (500: Internal Server Error) in 0ms","timestamp":"2026-07-18T20:51:00.965427948Z","level":3,"scope":{"request_id":"f5ea47a1-e210-401f-9f58-88c659f5c2c4"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:51:04.985087638Z","level":3,"scope":{"request_id":"07d72e37-dcf7-45df-a9fd-88ccbdc739e7"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:51:04.985685726Z","level":3,"scope":{"request_id":"07d72e37-dcf7-45df-a9fd-88ccbdc739e7"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22","timestamp":"2026-07-18T20:51:08.989906624Z","level":3,"scope":{"request_id":"7cd16d6f-f09c-43bb-9772-8af1a867b3b8"}}
+{"log_message":"(I) notifying syncer of new token","timestamp":"2026-07-18T20:51:08.99014556Z","level":3,"scope":{"request_id":"7cd16d6f-f09c-43bb-9772-8af1a867b3b8","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(E) Server: (failed to publishToken), Wrapped: (failed to FindCredentialsUniqueKey), failed to loadCredentialsFile: Server: (LoadLocalAuthV2 failed to credentialsDataFromBase64), illegal base64 data at input byte 0","timestamp":"2026-07-18T20:51:08.990346572Z","level":1,"scope":{"request_id":"7cd16d6f-f09c-43bb-9772-8af1a867b3b8","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22 completed (500: Internal Server Error) in 0ms","timestamp":"2026-07-18T20:51:08.990425209Z","level":3,"scope":{"request_id":"7cd16d6f-f09c-43bb-9772-8af1a867b3b8"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:51:14.985501524Z","level":3,"scope":{"request_id":"4acc3958-ee38-4e2b-baf4-d563056d4194"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:51:14.986175149Z","level":3,"scope":{"request_id":"4acc3958-ee38-4e2b-baf4-d563056d4194"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:51:22.414958216Z","level":3,"scope":{"request_id":"702e0079-8a55-4cab-aa67-3b5385ca5648"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:51:22.415050074Z","level":3,"scope":{"request_id":"702e0079-8a55-4cab-aa67-3b5385ca5648"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:51:24.985046503Z","level":3,"scope":{"request_id":"97ac1839-a9e7-4f03-b33a-c5c72cd415bf"}}
+{"log_message":"(I) GET /health completed (200: OK) in 1ms","timestamp":"2026-07-18T20:51:24.986393343Z","level":3,"scope":{"request_id":"97ac1839-a9e7-4f03-b33a-c5c72cd415bf"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22","timestamp":"2026-07-18T20:51:25.013488889Z","level":3,"scope":{"request_id":"87dccfe4-7edb-4f4b-9df9-f6e843cb1408"}}
+{"log_message":"(I) notifying syncer of new token","timestamp":"2026-07-18T20:51:25.013661794Z","level":3,"scope":{"request_id":"87dccfe4-7edb-4f4b-9df9-f6e843cb1408","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(E) Server: (failed to publishToken), Wrapped: (failed to FindCredentialsUniqueKey), failed to loadCredentialsFile: Server: (LoadLocalAuthV2 failed to credentialsDataFromBase64), illegal base64 data at input byte 0","timestamp":"2026-07-18T20:51:25.013754361Z","level":1,"scope":{"request_id":"87dccfe4-7edb-4f4b-9df9-f6e843cb1408","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22 completed (500: Internal Server Error) in 0ms","timestamp":"2026-07-18T20:51:25.013839469Z","level":3,"scope":{"request_id":"87dccfe4-7edb-4f4b-9df9-f6e843cb1408"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:51:34.98587136Z","level":3,"scope":{"request_id":"3bf8a3ec-304b-4392-ae96-526e21d8c5ee"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:51:34.986578196Z","level":3,"scope":{"request_id":"3bf8a3ec-304b-4392-ae96-526e21d8c5ee"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:51:44.985789747Z","level":3,"scope":{"request_id":"59db8bae-ba7c-4324-a080-eb2ea4cee5bd"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:51:44.986426426Z","level":3,"scope":{"request_id":"59db8bae-ba7c-4324-a080-eb2ea4cee5bd"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:51:52.414992282Z","level":3,"scope":{"request_id":"c3f7e8b0-66c0-4ce3-8c7f-f77171065273"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:51:52.41514638Z","level":3,"scope":{"request_id":"c3f7e8b0-66c0-4ce3-8c7f-f77171065273"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:51:54.98515381Z","level":3,"scope":{"request_id":"b44f1937-964f-4b70-a686-c378d2be15c3"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:51:54.985867993Z","level":3,"scope":{"request_id":"b44f1937-964f-4b70-a686-c378d2be15c3"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22","timestamp":"2026-07-18T20:51:57.035723364Z","level":3,"scope":{"request_id":"bae49180-d046-4d67-ace5-1269c61d8356"}}
+{"log_message":"(I) notifying syncer of new token","timestamp":"2026-07-18T20:51:57.036237125Z","level":3,"scope":{"request_id":"bae49180-d046-4d67-ace5-1269c61d8356","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(E) Server: (failed to publishToken), Wrapped: (failed to FindCredentialsUniqueKey), failed to loadCredentialsFile: Server: (LoadLocalAuthV2 failed to credentialsDataFromBase64), illegal base64 data at input byte 0","timestamp":"2026-07-18T20:51:57.036521914Z","level":1,"scope":{"request_id":"bae49180-d046-4d67-ace5-1269c61d8356","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22 completed (500: Internal Server Error) in 0ms","timestamp":"2026-07-18T20:51:57.036596268Z","level":3,"scope":{"request_id":"bae49180-d046-4d67-ace5-1269c61d8356"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:52:04.985917708Z","level":3,"scope":{"request_id":"90d4da28-092e-498b-9194-fb47dec6bf52"}}
+{"log_message":"(I) GET /health completed (200: OK) in 1ms","timestamp":"2026-07-18T20:52:04.98689532Z","level":3,"scope":{"request_id":"90d4da28-092e-498b-9194-fb47dec6bf52"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:52:14.985511869Z","level":3,"scope":{"request_id":"57875be4-de60-493c-bb44-06c94f4ed79a"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:52:14.986166425Z","level":3,"scope":{"request_id":"57875be4-de60-493c-bb44-06c94f4ed79a"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:52:22.415923212Z","level":3,"scope":{"request_id":"3852870c-b98a-4364-bf3d-60da970fdadf"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:52:22.41599949Z","level":3,"scope":{"request_id":"3852870c-b98a-4364-bf3d-60da970fdadf"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:52:24.985483606Z","level":3,"scope":{"request_id":"52647c73-9044-4e14-a0b9-9ba308a04e02"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:52:24.98617174Z","level":3,"scope":{"request_id":"52647c73-9044-4e14-a0b9-9ba308a04e02"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:52:34.986020141Z","level":3,"scope":{"request_id":"79baa6cc-afb8-44fe-a236-f13a11211af9"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:52:34.986773305Z","level":3,"scope":{"request_id":"79baa6cc-afb8-44fe-a236-f13a11211af9"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:52:44.985586534Z","level":3,"scope":{"request_id":"88dd7946-02d7-4267-95c7-17a6f369dd46"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:52:44.986251903Z","level":3,"scope":{"request_id":"88dd7946-02d7-4267-95c7-17a6f369dd46"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:52:52.415406293Z","level":3,"scope":{"request_id":"7ef601d2-e3c1-461d-ad09-a9a1c909d560"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:52:52.415495601Z","level":3,"scope":{"request_id":"7ef601d2-e3c1-461d-ad09-a9a1c909d560"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:52:54.985448773Z","level":3,"scope":{"request_id":"fb68390a-b275-419e-97b5-32d90a14f896"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:52:54.986324797Z","level":3,"scope":{"request_id":"fb68390a-b275-419e-97b5-32d90a14f896"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22","timestamp":"2026-07-18T20:53:01.060339624Z","level":3,"scope":{"request_id":"5c8574ba-8913-4850-8c0e-834d5e8e3cdf"}}
+{"log_message":"(I) notifying syncer of new token","timestamp":"2026-07-18T20:53:01.06056291Z","level":3,"scope":{"request_id":"5c8574ba-8913-4850-8c0e-834d5e8e3cdf","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(E) Server: (failed to publishToken), Wrapped: (failed to FindCredentialsUniqueKey), failed to loadCredentialsFile: Server: (LoadLocalAuthV2 failed to credentialsDataFromBase64), illegal base64 data at input byte 0","timestamp":"2026-07-18T20:53:01.060655468Z","level":1,"scope":{"request_id":"5c8574ba-8913-4850-8c0e-834d5e8e3cdf","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22 completed (500: Internal Server Error) in 0ms","timestamp":"2026-07-18T20:53:01.060712301Z","level":3,"scope":{"request_id":"5c8574ba-8913-4850-8c0e-834d5e8e3cdf"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:53:04.985241016Z","level":3,"scope":{"request_id":"dcaef279-1fa9-44c6-9824-d395aa5046fb"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:53:04.985867919Z","level":3,"scope":{"request_id":"dcaef279-1fa9-44c6-9824-d395aa5046fb"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:53:14.985071602Z","level":3,"scope":{"request_id":"c5646f00-c12e-4396-973d-c4a1d52eab6b"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:53:14.985867163Z","level":3,"scope":{"request_id":"c5646f00-c12e-4396-973d-c4a1d52eab6b"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:53:22.415390842Z","level":3,"scope":{"request_id":"577ec88c-1e8a-4ce1-9f34-0968fe843acd"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:53:22.415586731Z","level":3,"scope":{"request_id":"577ec88c-1e8a-4ce1-9f34-0968fe843acd"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:53:24.985310437Z","level":3,"scope":{"request_id":"0f771b30-ad74-412f-9b31-e999ee2a016e"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:53:24.986062281Z","level":3,"scope":{"request_id":"0f771b30-ad74-412f-9b31-e999ee2a016e"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:53:34.985465888Z","level":3,"scope":{"request_id":"a1a7d5fd-db79-480b-b549-5d463a335542"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:53:34.986096924Z","level":3,"scope":{"request_id":"a1a7d5fd-db79-480b-b549-5d463a335542"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:53:44.986399885Z","level":3,"scope":{"request_id":"6cdee5cd-d14c-4b53-8e75-917d6e910c2a"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:53:44.98732179Z","level":3,"scope":{"request_id":"6cdee5cd-d14c-4b53-8e75-917d6e910c2a"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:53:52.414864938Z","level":3,"scope":{"request_id":"b16cfb73-bc79-4c4a-8e6f-df7fa1482b1c"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:53:52.415016443Z","level":3,"scope":{"request_id":"b16cfb73-bc79-4c4a-8e6f-df7fa1482b1c"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:53:54.985981491Z","level":3,"scope":{"request_id":"080d6c1d-e112-4708-927a-417c49f0f7b8"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:53:54.986669543Z","level":3,"scope":{"request_id":"080d6c1d-e112-4708-927a-417c49f0f7b8"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:54:04.985949783Z","level":3,"scope":{"request_id":"63923069-d357-4bd6-b28e-0811fee1a880"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:54:04.986544115Z","level":3,"scope":{"request_id":"63923069-d357-4bd6-b28e-0811fee1a880"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:54:14.985518908Z","level":3,"scope":{"request_id":"b123dd1d-a061-4e88-8534-dcc62a442ed3"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:54:14.986179348Z","level":3,"scope":{"request_id":"b123dd1d-a061-4e88-8534-dcc62a442ed3"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:54:22.415498714Z","level":3,"scope":{"request_id":"72bd8e8a-cd42-4720-8572-690637d812ea"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:54:22.415604258Z","level":3,"scope":{"request_id":"72bd8e8a-cd42-4720-8572-690637d812ea"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:54:24.985284602Z","level":3,"scope":{"request_id":"45e4e456-6b92-4e70-bf86-dd1f071ec899"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:54:24.986075406Z","level":3,"scope":{"request_id":"45e4e456-6b92-4e70-bf86-dd1f071ec899"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:54:34.985268242Z","level":3,"scope":{"request_id":"94061fe0-f6a4-470c-9fcf-b621e538cba4"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:54:34.985959159Z","level":3,"scope":{"request_id":"94061fe0-f6a4-470c-9fcf-b621e538cba4"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:54:44.985974161Z","level":3,"scope":{"request_id":"ac44c8b9-101e-4d9b-91c5-76ecc96f28b2"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:54:44.986631907Z","level":3,"scope":{"request_id":"ac44c8b9-101e-4d9b-91c5-76ecc96f28b2"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:54:52.415402231Z","level":3,"scope":{"request_id":"958eec74-d84a-4c3c-aa64-ecf09601cf60"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:54:52.415486321Z","level":3,"scope":{"request_id":"958eec74-d84a-4c3c-aa64-ecf09601cf60"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:54:54.985967209Z","level":3,"scope":{"request_id":"d553be1d-d567-42d7-9a0c-700a4de9b8e7"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:54:54.986591357Z","level":3,"scope":{"request_id":"d553be1d-d567-42d7-9a0c-700a4de9b8e7"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:55:04.9851342Z","level":3,"scope":{"request_id":"40b9e678-86b7-47f6-a6b7-82b2681f9ee3"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:55:04.985952208Z","level":3,"scope":{"request_id":"40b9e678-86b7-47f6-a6b7-82b2681f9ee3"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22","timestamp":"2026-07-18T20:55:09.086438425Z","level":3,"scope":{"request_id":"9c7372eb-f99c-4189-8f0e-cd8f63c9c2e0"}}
+{"log_message":"(I) notifying syncer of new token","timestamp":"2026-07-18T20:55:09.086652731Z","level":3,"scope":{"request_id":"9c7372eb-f99c-4189-8f0e-cd8f63c9c2e0","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(E) Server: (failed to publishToken), Wrapped: (failed to FindCredentialsUniqueKey), failed to loadCredentialsFile: Server: (LoadLocalAuthV2 failed to credentialsDataFromBase64), illegal base64 data at input byte 0","timestamp":"2026-07-18T20:55:09.086748557Z","level":1,"scope":{"request_id":"9c7372eb-f99c-4189-8f0e-cd8f63c9c2e0","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22 completed (500: Internal Server Error) in 0ms","timestamp":"2026-07-18T20:55:09.086802642Z","level":3,"scope":{"request_id":"9c7372eb-f99c-4189-8f0e-cd8f63c9c2e0"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:55:14.985982801Z","level":3,"scope":{"request_id":"8de09575-5ca8-4e6c-817a-12e84f7ede57"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:55:14.98657245Z","level":3,"scope":{"request_id":"8de09575-5ca8-4e6c-817a-12e84f7ede57"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:55:22.415518033Z","level":3,"scope":{"request_id":"6b417888-82d0-4887-9031-5e998b7c60d5"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:55:22.415627421Z","level":3,"scope":{"request_id":"6b417888-82d0-4887-9031-5e998b7c60d5"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:55:24.98529968Z","level":3,"scope":{"request_id":"758a7719-5a28-4c4d-bbfd-c6a3979f0801"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:55:24.985924355Z","level":3,"scope":{"request_id":"758a7719-5a28-4c4d-bbfd-c6a3979f0801"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:55:34.985646889Z","level":3,"scope":{"request_id":"d4264803-7f25-4a37-ba9f-2c69c04fdb89"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:55:34.986365076Z","level":3,"scope":{"request_id":"d4264803-7f25-4a37-ba9f-2c69c04fdb89"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:55:44.984955665Z","level":3,"scope":{"request_id":"14af20b6-6fac-481e-a75a-41219e2bb1cf"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:55:44.985554624Z","level":3,"scope":{"request_id":"14af20b6-6fac-481e-a75a-41219e2bb1cf"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:55:52.414853372Z","level":3,"scope":{"request_id":"aacb3bdc-1b74-418c-b656-921321aa8584"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:55:52.414946458Z","level":3,"scope":{"request_id":"aacb3bdc-1b74-418c-b656-921321aa8584"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:55:54.985249503Z","level":3,"scope":{"request_id":"d8b6873c-6952-4af3-84b8-25954c8dbe74"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:55:54.985937407Z","level":3,"scope":{"request_id":"d8b6873c-6952-4af3-84b8-25954c8dbe74"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:56:04.985222911Z","level":3,"scope":{"request_id":"2d92774e-f961-4aa7-9739-7428ffedb453"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:56:04.985887147Z","level":3,"scope":{"request_id":"2d92774e-f961-4aa7-9739-7428ffedb453"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:56:14.985367749Z","level":3,"scope":{"request_id":"fe0243da-bef2-4b31-9255-9919ccad80e0"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:56:14.986201864Z","level":3,"scope":{"request_id":"fe0243da-bef2-4b31-9255-9919ccad80e0"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:56:22.415207182Z","level":3,"scope":{"request_id":"77752dad-adc7-46fd-8666-da4010437e8b"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:56:22.415300187Z","level":3,"scope":{"request_id":"77752dad-adc7-46fd-8666-da4010437e8b"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:56:24.985843292Z","level":3,"scope":{"request_id":"979deb29-a9e1-4bd3-9943-3c8c7518cc6d"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:56:24.986497714Z","level":3,"scope":{"request_id":"979deb29-a9e1-4bd3-9943-3c8c7518cc6d"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:56:34.985485833Z","level":3,"scope":{"request_id":"cfd9cd5c-ffe8-41c3-a9ed-5955247f555e"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:56:34.986142162Z","level":3,"scope":{"request_id":"cfd9cd5c-ffe8-41c3-a9ed-5955247f555e"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:56:44.985480428Z","level":3,"scope":{"request_id":"2225909b-e26a-4335-bc83-1f65d935027e"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:56:44.9862149Z","level":3,"scope":{"request_id":"2225909b-e26a-4335-bc83-1f65d935027e"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:56:52.415906086Z","level":3,"scope":{"request_id":"e51a3154-baee-45bb-8d82-73bdbc1fdf26"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:56:52.415993249Z","level":3,"scope":{"request_id":"e51a3154-baee-45bb-8d82-73bdbc1fdf26"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:56:54.985060962Z","level":3,"scope":{"request_id":"4cfb43de-2e8f-4654-980e-c8bf6d943fe5"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:56:54.985646221Z","level":3,"scope":{"request_id":"4cfb43de-2e8f-4654-980e-c8bf6d943fe5"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:57:04.985242467Z","level":3,"scope":{"request_id":"e0fd3de1-51d0-4cf2-83d5-fae488213cd2"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:57:04.985780443Z","level":3,"scope":{"request_id":"e0fd3de1-51d0-4cf2-83d5-fae488213cd2"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:57:14.985891345Z","level":3,"scope":{"request_id":"d19d33b0-d150-480b-8343-fe20708198ce"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:57:14.98648778Z","level":3,"scope":{"request_id":"d19d33b0-d150-480b-8343-fe20708198ce"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:57:22.41530983Z","level":3,"scope":{"request_id":"d5fb3c58-b72c-4351-9123-ca4e3a86b29c"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:57:22.415408376Z","level":3,"scope":{"request_id":"d5fb3c58-b72c-4351-9123-ca4e3a86b29c"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:57:24.985347593Z","level":3,"scope":{"request_id":"56bc9478-95ae-4675-94fa-0fb7b5e217fe"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:57:24.986119763Z","level":3,"scope":{"request_id":"56bc9478-95ae-4675-94fa-0fb7b5e217fe"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:57:34.985193978Z","level":3,"scope":{"request_id":"17a0ecbb-8666-4b56-90a2-4539c37efa6c"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:57:34.986041393Z","level":3,"scope":{"request_id":"17a0ecbb-8666-4b56-90a2-4539c37efa6c"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:57:44.98518824Z","level":3,"scope":{"request_id":"38e9a4b2-38d1-4b63-ae2f-f6bf1f3c847f"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:57:44.985780836Z","level":3,"scope":{"request_id":"38e9a4b2-38d1-4b63-ae2f-f6bf1f3c847f"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:57:52.415362521Z","level":3,"scope":{"request_id":"a3b91a50-2669-4fb2-bf26-ca574be65050"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:57:52.415457011Z","level":3,"scope":{"request_id":"a3b91a50-2669-4fb2-bf26-ca574be65050"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:57:54.985531637Z","level":3,"scope":{"request_id":"c5bacd1e-0eb5-452c-a082-2ac82aa117e8"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:57:54.986304021Z","level":3,"scope":{"request_id":"c5bacd1e-0eb5-452c-a082-2ac82aa117e8"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:58:04.984983878Z","level":3,"scope":{"request_id":"e582698d-484b-4df0-a7fc-7761603628dc"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:58:04.985584856Z","level":3,"scope":{"request_id":"e582698d-484b-4df0-a7fc-7761603628dc"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:58:14.985417848Z","level":3,"scope":{"request_id":"a576c4b3-f002-4256-bb5d-c36d7deff79e"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:58:14.986095472Z","level":3,"scope":{"request_id":"a576c4b3-f002-4256-bb5d-c36d7deff79e"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:58:22.414930288Z","level":3,"scope":{"request_id":"9264ef0c-0f21-4535-8cd1-bc6ccbfcd87a"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:58:22.415058243Z","level":3,"scope":{"request_id":"9264ef0c-0f21-4535-8cd1-bc6ccbfcd87a"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:58:24.985256727Z","level":3,"scope":{"request_id":"9ff2b071-9e26-455f-ae87-223050111811"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:58:24.985908273Z","level":3,"scope":{"request_id":"9ff2b071-9e26-455f-ae87-223050111811"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22","timestamp":"2026-07-18T20:58:32.007114201Z","level":3,"scope":{"request_id":"f0912548-a8e7-42c4-937e-00e6365f3837"}}
+{"log_message":"(I) notifying syncer of new token","timestamp":"2026-07-18T20:58:32.007334374Z","level":3,"scope":{"request_id":"f0912548-a8e7-42c4-937e-00e6365f3837","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(E) Server: (failed to publishToken), Wrapped: (failed to FindCredentialsUniqueKey), failed to loadCredentialsFile: Server: (LoadLocalAuthV2 failed to credentialsDataFromBase64), illegal base64 data at input byte 0","timestamp":"2026-07-18T20:58:32.007424747Z","level":1,"scope":{"request_id":"f0912548-a8e7-42c4-937e-00e6365f3837","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22 completed (500: Internal Server Error) in 0ms","timestamp":"2026-07-18T20:58:32.007481905Z","level":3,"scope":{"request_id":"f0912548-a8e7-42c4-937e-00e6365f3837"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:58:34.985056193Z","level":3,"scope":{"request_id":"67a4377d-88f9-435a-9f06-d68ab0f9422e"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:58:34.985624667Z","level":3,"scope":{"request_id":"67a4377d-88f9-435a-9f06-d68ab0f9422e"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:58:44.986123958Z","level":3,"scope":{"request_id":"bdf3e7ac-ff04-47f0-8547-57c117d72f71"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:58:44.98669959Z","level":3,"scope":{"request_id":"bdf3e7ac-ff04-47f0-8547-57c117d72f71"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:58:52.414793112Z","level":3,"scope":{"request_id":"297b8e94-4946-48dc-9459-d5b98d96eb59"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:58:52.414906407Z","level":3,"scope":{"request_id":"297b8e94-4946-48dc-9459-d5b98d96eb59"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:58:54.985783866Z","level":3,"scope":{"request_id":"711a39e5-a853-4321-b948-d109725ff826"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:58:54.986526526Z","level":3,"scope":{"request_id":"711a39e5-a853-4321-b948-d109725ff826"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:59:04.985309971Z","level":3,"scope":{"request_id":"51e308d0-696f-4acd-9b55-d47702ee565f"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:59:04.985961437Z","level":3,"scope":{"request_id":"51e308d0-696f-4acd-9b55-d47702ee565f"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:59:14.986294335Z","level":3,"scope":{"request_id":"58524c4f-935e-4ead-aacc-f53490707d89"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:59:14.986917111Z","level":3,"scope":{"request_id":"58524c4f-935e-4ead-aacc-f53490707d89"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:59:22.415126478Z","level":3,"scope":{"request_id":"8297a80f-8129-49de-8f9f-4f5bb1b69f2d"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:59:22.415213815Z","level":3,"scope":{"request_id":"8297a80f-8129-49de-8f9f-4f5bb1b69f2d"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:59:24.985191318Z","level":3,"scope":{"request_id":"23a3cf33-f6a7-491e-bd83-e3f6fb0b2961"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:59:24.986050133Z","level":3,"scope":{"request_id":"23a3cf33-f6a7-491e-bd83-e3f6fb0b2961"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22","timestamp":"2026-07-18T20:59:25.107756147Z","level":3,"scope":{"request_id":"21095b43-048a-46c9-98ee-e781f2ac4ad7"}}
+{"log_message":"(I) notifying syncer of new token","timestamp":"2026-07-18T20:59:25.108097114Z","level":3,"scope":{"request_id":"21095b43-048a-46c9-98ee-e781f2ac4ad7","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(E) Server: (failed to publishToken), Wrapped: (failed to FindCredentialsUniqueKey), failed to loadCredentialsFile: Server: (LoadLocalAuthV2 failed to credentialsDataFromBase64), illegal base64 data at input byte 0","timestamp":"2026-07-18T20:59:25.108274342Z","level":1,"scope":{"request_id":"21095b43-048a-46c9-98ee-e781f2ac4ad7","jti":"vjb4d7zei4a2rq3noa64anngkm"}}
+{"log_message":"(I) GET /v1/vaults?filter=title+eq+%22Kubernetes%22 completed (500: Internal Server Error) in 0ms","timestamp":"2026-07-18T20:59:25.108365689Z","level":3,"scope":{"request_id":"21095b43-048a-46c9-98ee-e781f2ac4ad7"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:59:34.985714181Z","level":3,"scope":{"request_id":"ddb04cb8-3d33-43f2-a29d-7b7af5f7bfc2"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:59:34.986568162Z","level":3,"scope":{"request_id":"ddb04cb8-3d33-43f2-a29d-7b7af5f7bfc2"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:59:44.985723612Z","level":3,"scope":{"request_id":"ef5a8080-2ad4-444e-819b-6ec6eb293090"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:59:44.986374041Z","level":3,"scope":{"request_id":"ef5a8080-2ad4-444e-819b-6ec6eb293090"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T20:59:52.415711312Z","level":3,"scope":{"request_id":"7cd7d565-4d95-4edf-84fb-7837f659aa2e"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T20:59:52.415809236Z","level":3,"scope":{"request_id":"7cd7d565-4d95-4edf-84fb-7837f659aa2e"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T20:59:54.984987178Z","level":3,"scope":{"request_id":"4c4620c0-e70b-46e4-95bb-4a3e06a8a36c"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T20:59:54.985616931Z","level":3,"scope":{"request_id":"4c4620c0-e70b-46e4-95bb-4a3e06a8a36c"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:00:04.985897282Z","level":3,"scope":{"request_id":"ce8d7296-1e16-4306-8bef-3de70107ae95"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:00:04.986715467Z","level":3,"scope":{"request_id":"ce8d7296-1e16-4306-8bef-3de70107ae95"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:00:14.985239389Z","level":3,"scope":{"request_id":"c3618c6a-5847-4876-bf8c-22ccc9c8cd30"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:00:14.985878002Z","level":3,"scope":{"request_id":"c3618c6a-5847-4876-bf8c-22ccc9c8cd30"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T21:00:22.415297899Z","level":3,"scope":{"request_id":"6e2dd01e-06be-4c29-a8a6-6fcedb80283c"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T21:00:22.415396663Z","level":3,"scope":{"request_id":"6e2dd01e-06be-4c29-a8a6-6fcedb80283c"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:00:24.985420012Z","level":3,"scope":{"request_id":"1cb94a4d-e874-4acf-98d6-41c5adeba8f3"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:00:24.986138938Z","level":3,"scope":{"request_id":"1cb94a4d-e874-4acf-98d6-41c5adeba8f3"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:00:34.98606724Z","level":3,"scope":{"request_id":"51296902-c4c1-4de3-ae7d-d3835c3b5f58"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:00:34.986844074Z","level":3,"scope":{"request_id":"51296902-c4c1-4de3-ae7d-d3835c3b5f58"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:00:44.985662139Z","level":3,"scope":{"request_id":"847a3142-6202-4c03-bb40-eeb20f67bb8d"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:00:44.986442549Z","level":3,"scope":{"request_id":"847a3142-6202-4c03-bb40-eeb20f67bb8d"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T21:00:52.414911461Z","level":3,"scope":{"request_id":"09772a51-7a11-4b03-8d53-ea54d6eb430a"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T21:00:52.415026329Z","level":3,"scope":{"request_id":"09772a51-7a11-4b03-8d53-ea54d6eb430a"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:00:54.98596038Z","level":3,"scope":{"request_id":"5fe634ca-95ba-415a-8953-f4cc120df38e"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:00:54.986714663Z","level":3,"scope":{"request_id":"5fe634ca-95ba-415a-8953-f4cc120df38e"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:01:04.985080296Z","level":3,"scope":{"request_id":"5c351d82-3a50-4687-b8f3-2baba135f24b"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:01:04.985777756Z","level":3,"scope":{"request_id":"5c351d82-3a50-4687-b8f3-2baba135f24b"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:01:14.98503633Z","level":3,"scope":{"request_id":"78b199de-a044-4853-a654-3d6e024cc9c3"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:01:14.985715896Z","level":3,"scope":{"request_id":"78b199de-a044-4853-a654-3d6e024cc9c3"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T21:01:22.415541031Z","level":3,"scope":{"request_id":"279fa878-b0f2-4ce8-a259-5150d3a012a0"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T21:01:22.415671132Z","level":3,"scope":{"request_id":"279fa878-b0f2-4ce8-a259-5150d3a012a0"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:01:24.985469528Z","level":3,"scope":{"request_id":"e5f90e8b-8a07-40c0-ba40-b0b2ea46f36c"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:01:24.98614423Z","level":3,"scope":{"request_id":"e5f90e8b-8a07-40c0-ba40-b0b2ea46f36c"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:01:34.984924282Z","level":3,"scope":{"request_id":"a1f0ff2f-2ae0-4515-b9c7-381cbc37a196"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:01:34.985570397Z","level":3,"scope":{"request_id":"a1f0ff2f-2ae0-4515-b9c7-381cbc37a196"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:01:44.985389215Z","level":3,"scope":{"request_id":"8c5bb085-334b-422c-a17d-4d389aed2274"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:01:44.986033104Z","level":3,"scope":{"request_id":"8c5bb085-334b-422c-a17d-4d389aed2274"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T21:01:52.415292221Z","level":3,"scope":{"request_id":"ea7e0151-4f1b-41aa-99af-65a707927f0f"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T21:01:52.415477905Z","level":3,"scope":{"request_id":"ea7e0151-4f1b-41aa-99af-65a707927f0f"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:01:54.985761218Z","level":3,"scope":{"request_id":"1c9cbe2c-ab97-423a-97b8-8ce9521c4ae7"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:01:54.98643967Z","level":3,"scope":{"request_id":"1c9cbe2c-ab97-423a-97b8-8ce9521c4ae7"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:02:04.984969678Z","level":3,"scope":{"request_id":"33144f35-eee6-413e-9be2-bf7b627a9586"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:02:04.985689Z","level":3,"scope":{"request_id":"33144f35-eee6-413e-9be2-bf7b627a9586"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:02:14.985600674Z","level":3,"scope":{"request_id":"33f3fd58-aeab-4c1c-8e52-576d24dedcd4"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:02:14.986454249Z","level":3,"scope":{"request_id":"33f3fd58-aeab-4c1c-8e52-576d24dedcd4"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T21:02:22.415464045Z","level":3,"scope":{"request_id":"dbbcf022-1c42-4a66-9bdc-efda2681a5b9"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T21:02:22.415555026Z","level":3,"scope":{"request_id":"dbbcf022-1c42-4a66-9bdc-efda2681a5b9"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:02:24.985249309Z","level":3,"scope":{"request_id":"e97cdb3b-7a3b-402e-b791-28153f2022cb"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:02:24.986060379Z","level":3,"scope":{"request_id":"e97cdb3b-7a3b-402e-b791-28153f2022cb"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:02:34.985553322Z","level":3,"scope":{"request_id":"6aeefaab-fd7d-4bf7-b2f4-fb7eaba9fd77"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:02:34.986187244Z","level":3,"scope":{"request_id":"6aeefaab-fd7d-4bf7-b2f4-fb7eaba9fd77"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:02:44.985862833Z","level":3,"scope":{"request_id":"1fb50236-e2b7-4adb-9ff1-a220f569613f"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:02:44.986531129Z","level":3,"scope":{"request_id":"1fb50236-e2b7-4adb-9ff1-a220f569613f"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T21:02:52.414978598Z","level":3,"scope":{"request_id":"d200f19a-9d8d-4dec-a463-4aef1ac7844c"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T21:02:52.4151411Z","level":3,"scope":{"request_id":"d200f19a-9d8d-4dec-a463-4aef1ac7844c"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:02:54.985956015Z","level":3,"scope":{"request_id":"05437422-3cc0-4164-9a89-4dbaf86fef09"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:02:54.986563304Z","level":3,"scope":{"request_id":"05437422-3cc0-4164-9a89-4dbaf86fef09"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:03:04.98558151Z","level":3,"scope":{"request_id":"7cb3aaf1-8fcb-4c24-af43-4bdb3b7bfa09"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:03:04.986375101Z","level":3,"scope":{"request_id":"7cb3aaf1-8fcb-4c24-af43-4bdb3b7bfa09"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:03:14.98519625Z","level":3,"scope":{"request_id":"1b81358c-8158-41b2-accb-5578fa6d9c6c"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:03:14.985859363Z","level":3,"scope":{"request_id":"1b81358c-8158-41b2-accb-5578fa6d9c6c"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T21:03:22.41571782Z","level":3,"scope":{"request_id":"a3e73fd4-b646-4560-9227-2074fd6bcd71"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T21:03:22.415848518Z","level":3,"scope":{"request_id":"a3e73fd4-b646-4560-9227-2074fd6bcd71"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:03:24.985134438Z","level":3,"scope":{"request_id":"aa40de02-15f6-460b-bb65-735aa73cf6d4"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:03:24.985722353Z","level":3,"scope":{"request_id":"aa40de02-15f6-460b-bb65-735aa73cf6d4"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:03:34.985275521Z","level":3,"scope":{"request_id":"fab7c656-6f3a-43d6-963c-8242d4d8087d"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:03:34.986065714Z","level":3,"scope":{"request_id":"fab7c656-6f3a-43d6-963c-8242d4d8087d"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:03:44.98539312Z","level":3,"scope":{"request_id":"527368e2-3c1a-4db1-9199-e274f4922ade"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:03:44.986073139Z","level":3,"scope":{"request_id":"527368e2-3c1a-4db1-9199-e274f4922ade"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T21:03:52.415035366Z","level":3,"scope":{"request_id":"251ce191-16ee-49dd-9031-e2a0e838b040"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T21:03:52.415135614Z","level":3,"scope":{"request_id":"251ce191-16ee-49dd-9031-e2a0e838b040"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:03:54.986281726Z","level":3,"scope":{"request_id":"f0efa10c-7021-4e38-9857-6afed0e9d829"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:03:54.986923688Z","level":3,"scope":{"request_id":"f0efa10c-7021-4e38-9857-6afed0e9d829"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:04:04.985547836Z","level":3,"scope":{"request_id":"8dbdc8f7-be76-4e1e-9c46-42ef6d2d8f8b"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:04:04.986243341Z","level":3,"scope":{"request_id":"8dbdc8f7-be76-4e1e-9c46-42ef6d2d8f8b"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:04:14.985235319Z","level":3,"scope":{"request_id":"dc8df35d-0b4f-45f9-a41b-f5699bc7c609"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:04:14.986033546Z","level":3,"scope":{"request_id":"dc8df35d-0b4f-45f9-a41b-f5699bc7c609"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T21:04:22.415349746Z","level":3,"scope":{"request_id":"c283b8eb-36a2-4a04-8b91-f4a47b4c3f5c"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T21:04:22.41545165Z","level":3,"scope":{"request_id":"c283b8eb-36a2-4a04-8b91-f4a47b4c3f5c"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:04:24.98588204Z","level":3,"scope":{"request_id":"9fa1bcab-52e7-4188-bed6-3157f7a0b66c"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:04:24.986571503Z","level":3,"scope":{"request_id":"9fa1bcab-52e7-4188-bed6-3157f7a0b66c"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:04:34.987209725Z","level":3,"scope":{"request_id":"1c2fe60d-8202-4a0c-a7c1-5b116e5089de"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:04:34.987806135Z","level":3,"scope":{"request_id":"1c2fe60d-8202-4a0c-a7c1-5b116e5089de"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:04:44.985407056Z","level":3,"scope":{"request_id":"3d1433f8-d60a-4e2e-8a17-e197210689ee"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:04:44.98620523Z","level":3,"scope":{"request_id":"3d1433f8-d60a-4e2e-8a17-e197210689ee"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T21:04:52.415607361Z","level":3,"scope":{"request_id":"d74a3d2b-9c89-48a1-9282-140fc70c2acc"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T21:04:52.415709764Z","level":3,"scope":{"request_id":"d74a3d2b-9c89-48a1-9282-140fc70c2acc"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:04:54.986241796Z","level":3,"scope":{"request_id":"8f6259ca-44d7-4fc2-9717-802a3847acf7"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:04:54.987095464Z","level":3,"scope":{"request_id":"8f6259ca-44d7-4fc2-9717-802a3847acf7"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:05:04.985133422Z","level":3,"scope":{"request_id":"b2506516-8de3-4c1d-8e01-fece9d68c32b"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:05:04.985948946Z","level":3,"scope":{"request_id":"b2506516-8de3-4c1d-8e01-fece9d68c32b"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:05:14.985652328Z","level":3,"scope":{"request_id":"6603cca7-3420-49e8-a2ac-9feab8d18f39"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:05:14.986489558Z","level":3,"scope":{"request_id":"6603cca7-3420-49e8-a2ac-9feab8d18f39"}}
+{"log_message":"(I) GET /heartbeat","timestamp":"2026-07-18T21:05:22.415759364Z","level":3,"scope":{"request_id":"fd393f1e-cbf5-4421-8f97-70f896c92cf2"}}
+{"log_message":"(I) GET /heartbeat completed (200: OK) in 0ms","timestamp":"2026-07-18T21:05:22.415848527Z","level":3,"scope":{"request_id":"fd393f1e-cbf5-4421-8f97-70f896c92cf2"}}
+{"log_message":"(I) GET /health","timestamp":"2026-07-18T21:05:24.985067679Z","level":3,"scope":{"request_id":"10a22600-9fb3-4fb6-953a-3380870ad739"}}
+{"log_message":"(I) GET /health completed (200: OK) in 0ms","timestamp":"2026-07-18T21:05:24.985658098Z","level":3,"scope":{"request_id":"10a22600-9fb3-4fb6-953a-3380870ad739"}}
