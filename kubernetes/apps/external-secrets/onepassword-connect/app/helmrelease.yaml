@@ -10,13 +10,6 @@ spec:
     name: onepassword-connect
   interval: 30m
   values:
-    defaultPodOptions:
-      securityContext:
-        fsGroup: 999
-        fsGroupChangePolicy: OnRootMismatch
-        runAsGroup: 999
-        runAsNonRoot: true
-        runAsUser: 999
     controllers:
       onepassword-connect:
         strategy: RollingUpdate
@@ -102,6 +95,11 @@ spec:
                   initialDelaySeconds: 15
             securityContext: *securityContext
             resources: *resources
+    defaultPodOptions:
+      securityContext:
+        runAsNonRoot: true
+        runAsGroup: 999
+        runAsUser: 999
     service:
       app:
         ports:
