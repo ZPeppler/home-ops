@@ -5,3 +5,5 @@ kind: Kustomization
 resources:
   - ./clustersecretstore.yaml
   - ./externalsecret.yaml
+  - ./helmrelease.yaml
+  - ./ocirepository.yaml
