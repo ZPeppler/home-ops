@@ -12,6 +12,8 @@ spec:
     - name: external-secrets
     - name: cloudnative-pg
       namespace: database
+    - name: dragonfly-operator
+      namespace: database
   interval: 30m
   path: ./kubernetes/apps/security/authentik/app
   prune: true
