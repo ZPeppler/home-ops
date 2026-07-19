@@ -20,7 +20,7 @@ spec:
           app:
             image:
               repository: ghcr.io/dragonflydb/operator
-              tag: v1.6.1
+              tag: v1.6.1@sha256:b11411142935f92ed0ec30a5ddeb31680e09ab66beecb827cb0224f1c4238638
             command:
               - "/manager"
             args:
@@ -83,3 +83,22 @@ spec:
             port: *port
           metrics:
             port: 8080
+    serviceMonitor:
+      app:
+        endpoints:
+          - port: metrics
+            scheme: http
+            path: /metrics
+            interval: 1m
+            scrapeTimeout: 10s
+  postRenderers:
+    - kustomize:
+        patches:
+          - patch: |-
+              apiVersion: monitoring.coreos.com/v1
+              kind: ServiceMonitor
+              metadata:
+                name: dragonfly-operator
+                namespace: dbms
+              spec:
+                fallbackScrapeProtocol: PrometheusText1.0.0
