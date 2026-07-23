@@ -5,7 +5,7 @@ metadata:
   name: authentik
 spec:
   hostnames:
-    - auth.${SECRET_DOMAIN}
+    - auth.fade-lab.com
   parentRefs:
     - name: envoy-external
       namespace: network
