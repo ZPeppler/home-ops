@@ -1,4 +1,25 @@
 ---
+# yaml-language-server: $schema=https://kubernetes-schemas.pages.dev/external-secrets.io/externalsecret_v1beta1.json
+apiVersion: external-secrets.io/v1
+kind: ExternalSecret
+metadata:
+  name: authentik-db
+  namespace: database
+spec:
+  secretStoreRef:
+    kind: ClusterSecretStore
+    name: onepassword
+  target:
+    name: authentik-db
+    template:
+      type: kubernetes.io/basic-auth
+      data:
+        username: authentik
+        password: "{{ .PG_PASS }}"
+  dataFrom:
+    - extract:
+        key: authentikV
+---
 apiVersion: postgresql.cnpg.io/v1
 kind: DatabaseRole
 metadata:
