@@ -12,6 +12,10 @@ spec:
         kind: HelmRepository
         name: authentik
   interval: 30m
+  valumesFrom:
+    - kind: Secret
+      name: authentik
+
   values:
     postgresql:
       enabled: false
