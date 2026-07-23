@@ -14,8 +14,8 @@ spec:
   interval: 30m
   valuesFrom:
     - kind: Secret
-      name: authentik-db
-      valuesKey: password
+      name: authentik-secret
+      valuesKey: pg_password
       targetPath: authentik.postgresql.password
     - kind: Secret
       name: authentik-secret
