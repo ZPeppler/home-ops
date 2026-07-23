@@ -15,6 +15,7 @@ spec:
   valuesFrom:
     - kind: Secret
       name: authentik-db
+      namespace: database
       valuesKey: password
       targetPath: authentik.postgresql.password
   values:
