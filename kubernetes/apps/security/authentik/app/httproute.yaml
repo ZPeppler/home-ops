@@ -5,7 +5,7 @@ metadata:
   name: authentik
 spec:
   hostnames:
-    - auth.${SECRET_DOMAIN}
+    - authentik.${SECRET_DOMAIN}
   parentRefs:
     - name: envoy-external
       namespace: network
@@ -13,4 +13,8 @@ spec:
     - backendRefs:
         - name: authentik-server
           namespace: security
-          port: 9000
+          port: 80
+      matches:
+        - path:
+            type: PathPrefix
+            value: /

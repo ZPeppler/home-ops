@@ -30,15 +30,15 @@ spec:
             enabled: true
         postgresql:
             password: "password"
-    server:
-        route:
-            main:
-                enabled: true
-                hostnames:
-                    - authentik.fade-lab.com
-                parentRefs:
-                    - name: envoy-external
-                      namespace: network
+    # server:
+    #     route:
+    #         main:
+    #             enabled: true
+    #             hostnames:
+    #                 - authentik.fade-lab.com
+    #             parentRefs:
+    #                 - name: envoy-external
+    #                   namespace: network
     postgresql:
         enabled: true
         auth:
