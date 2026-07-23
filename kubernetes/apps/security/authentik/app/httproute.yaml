@@ -11,6 +11,6 @@ spec:
       namespace: network
   rules:
     - backendRefs:
-        - name: authentik
+        - name: authentik-server
           namespace: security
-          port: 80
+          port: 9000
