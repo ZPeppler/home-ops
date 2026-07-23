@@ -1,0 +1,32 @@
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: authentik-db-password
+stringData:
+  password: "password"
+---
+apiVersion: postgresql.cnpg.io/v1
+kind: DatabaseRole
+metadata:
+  name: authentik
+  namespace: database
+spec:
+  cluster:
+    name: postgres
+  name: authentik
+  ensure: present
+  login: true
+  passwordSecret:
+    name: authentik-db-password
+---
+apiVersion: postgresql.cnpg.io/v1
+kind: Database
+metadata:
+  name: authentik
+  namespace: database
+spec:
+  cluster:
+    name: postgres
+  name: authentik
+  owner: authentik
