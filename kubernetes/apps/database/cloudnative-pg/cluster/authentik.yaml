@@ -12,7 +12,6 @@ spec:
   login: true
   passwordSecret:
     name: authentik-db
-    namespace: database
 ---
 apiVersion: postgresql.cnpg.io/v1
 kind: Database
