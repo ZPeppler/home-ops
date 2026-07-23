@@ -22,18 +22,24 @@ spec:
       valuesKey: postgres-password
       targetPath: authentik.postgresql.password
   values:
-    postgresql:
-      enabled: false
-    redis:
-      enabled: false
     authentik:
-
-      postgresql:
-        host: postgres-rw.database.svc.cluster.local
-        port: 5432
-        name: *app
-        user: *app
-
-      redis:
-        host: dragonfly-operator.database.svc.cluster.local
-        port: 6379
+        secret_key: 'Y1TXMo052Ts0c9toZG+BYFjjYPOeH33HU\QKC1Gt7VLyRAs2oVASHjFVTpzQB01Iv5KODbp0bX3dXcP'
+        # This sends anonymous usage-data, stack traces on errors and
+        # performance data to sentry.io, and is fully opt-in
+        error_reporting:
+            enabled: true
+        postgresql:
+            password: "password"
+    server:
+        route:
+            main:
+                enabled: true
+                hostnames:
+                    - authentik.fade-lab.com
+                parentRefs:
+                    - name: envoy-external
+                      namespace: network
+    postgresql:
+        enabled: true
+        auth:
+            password: "password"
