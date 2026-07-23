@@ -64,18 +64,18 @@ spec:
       reloader.stakater.com/auto: "true"
     service:
       port: 4466
-    serviceAccount:
-      create: false
-      name: headlamp-admin
+    # serviceAccount:
+    #   create: false
+    #   name: headlamp-admin
     volumes:
       - name: headlamp-plugins
         emptyDir: {}
       - name: kubeconfig
         emptyDir: {}
-      - name: sa-token
-        secret:
-          defaultMode: 420
-          secretName: headlamp-admin
+      # - name: sa-token
+      #   secret:
+      #     defaultMode: 420
+      #     secretName: headlamp-admin
     volumeMounts:
       - mountPath: /build/plugins
         name: headlamp-plugins
