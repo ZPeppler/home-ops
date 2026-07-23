@@ -18,7 +18,7 @@ spec:
         password: "{{ .PG_PASS }}"
   dataFrom:
     - extract:
-        key: authentikV
+        key: authentik
 ---
 apiVersion: postgresql.cnpg.io/v1
 kind: DatabaseRole
