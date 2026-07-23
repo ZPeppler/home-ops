@@ -12,7 +12,7 @@ spec:
         kind: HelmRepository
         name: authentik
   interval: 30m
-  valumesFrom:
+  valuesFrom:
     - kind: Secret
       name: authentik
 
