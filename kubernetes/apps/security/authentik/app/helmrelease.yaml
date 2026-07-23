@@ -12,11 +12,11 @@ spec:
         kind: HelmRepository
         name: authentik
   interval: 30m
-  # valuesFrom:
-  #   - kind: Secret
-  #     name: authentik
-  #     valuesKey: secret-key
-  #     targetPath: authentik.secret_key
+  valuesFrom:
+    - kind: Secret
+      name: authentik
+      valuesKey: secret_key
+      targetPath: authentik.secret_key
   #   - kind: Secret
   #     name: authentik
   #     valuesKey: postgres-password
@@ -24,21 +24,8 @@ spec:
   values:
     authentik:
         secret_key: 'Y1TXMo052Ts0c9toZG+BYFjjYPOeH33HU\QKC1Gt7VLyRAs2oVASHjFVTpzQB01Iv5KODbp0bX3dXcP'
-        # This sends anonymous usage-data, stack traces on errors and
-        # performance data to sentry.io, and is fully opt-in
-        error_reporting:
-            enabled: true
         postgresql:
             password: "password"
-    # server:
-    #     route:
-    #         main:
-    #             enabled: true
-    #             hostnames:
-    #                 - authentik.fade-lab.com
-    #             parentRefs:
-    #                 - name: envoy-external
-    #                   namespace: network
     postgresql:
         enabled: true
         auth:
