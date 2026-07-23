@@ -4,6 +4,7 @@ kind: Secret
 metadata:
   name: authentik-db-password
 stringData:
+  username: "authentik"
   password: "password"
 ---
 apiVersion: postgresql.cnpg.io/v1
