@@ -17,13 +17,12 @@ spec:
       name: authentik-db
       valuesKey: password
       targetPath: authentik.postgresql.password
+    - kind: Secret
+      name: authentik-secret
+      valuesKey: secret_key
+      targetPath: authentik.secret_key
   values:
     authentik:
-        secret_key: 'Y1TXMo052Ts0c9toZG+BYFjjYPOeH33HU\QKC1Gt7VLyRAs2oVASHjFVTpzQB01Iv5KODbp0bX3dXcP'
-        # This sends anonymous usage-data, stack traces on errors and
-        # performance data to sentry.io, and is fully opt-in
-        error_reporting:
-            enabled: true
         postgresql:
             host: postgres-rw.database.svc.cluster.local
     postgresql:
