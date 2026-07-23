@@ -14,7 +14,7 @@ spec:
   interval: 30m
   valuesFrom:
     - kind: Secret
-      name: authentik
+      name: authentik-secret
       valuesKey: secret_key
       targetPath: authentik.secret_key
   #   - kind: Secret
