@@ -8,5 +8,4 @@ components:
 
 resources:
   - ./namespace.yaml
-  - ./cloudnative-pg/ks.yaml
   - ./dragonfly-redis/ks.yaml
