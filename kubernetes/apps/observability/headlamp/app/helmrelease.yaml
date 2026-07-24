@@ -8,23 +8,23 @@ spec:
     kind: OCIRepository
     name: headlamp
   interval: 1h
-  valuesFrom:
-    - kind: Secret
-      name: headlamp-secret
-      valuesKey: OIDC_CLIENT_ID
-      targetPath: config.oidc.clientID
-    - kind: Secret
-      name: headlamp-secret
-      valuesKey: OIDC_CLIENT_SECRET
-      targetPath: config.oidc.clientSecret
-    - kind: Secret
-      name: headlamp-secret
-      valuesKey: OIDC_ISSUER_URL
-      targetPath: config.oidc.issuerURL
-    - kind: Secret
-      name: headlamp-secret
-      valuesKey: OIDC_SCOPES
-      targetPath: config.oidc.scopes
+  # valuesFrom:
+  #   - kind: Secret
+  #     name: headlamp-secret
+  #     valuesKey: OIDC_CLIENT_ID
+  #     targetPath: config.oidc.clientID
+  #   - kind: Secret
+  #     name: headlamp-secret
+  #     valuesKey: OIDC_CLIENT_SECRET
+  #     targetPath: config.oidc.clientSecret
+  #   - kind: Secret
+  #     name: headlamp-secret
+  #     valuesKey: OIDC_ISSUER_URL
+  #     targetPath: config.oidc.issuerURL
+  #   - kind: Secret
+  #     name: headlamp-secret
+  #     valuesKey: OIDC_SCOPES
+  #     targetPath: config.oidc.scopes
   values:
     fullNameOverride: headlamp
     initContainers:
@@ -34,7 +34,7 @@ spec:
           - "-c"
           - |
             kubectl config set-cluster main --server=https://kubernetes.default.svc --certificate-authority=/var/run/secrets/kubernetes.io/serviceaccount/ca.crt
-            # kubectl config set-credentials main --token=$(cat /tmp/sa-token/token)
+            kubectl config set-credentials main --token=$(cat /tmp/sa-token/token)
             kubectl config set-context main --cluster=main --user=main
             kubectl config use-context main
         env:
