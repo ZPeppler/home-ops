@@ -85,7 +85,7 @@ spec:
       enabled: true
 
     nodeExporter:
-      enabled: true
+      enabled: false
 
     grafana:
       enabled: false
