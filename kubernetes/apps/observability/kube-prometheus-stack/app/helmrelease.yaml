@@ -82,10 +82,10 @@ spec:
       enabled: false
 
     kubeStateMetrics:
-      enabled: false
+      enabled: true
 
     nodeExporter:
-      enabled: false
+      enabled: true
 
     grafana:
       enabled: false
@@ -151,12 +151,3 @@ spec:
               resources:
                 requests:
                   storage: 55Gi
-
-      route:
-        main:
-          enabled: true
-          hostnames:
-            - prometheus.${SECRET_DOMAIN}
-          parentRefs:
-            - name: envoy-external
-              namespace: network
