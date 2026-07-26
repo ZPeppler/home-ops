@@ -4,9 +4,13 @@ kind: HelmRelease
 metadata:
   name: ceph-csi-driver
 spec:
-  chartRef:
-    kind: HelmRepository
-    name: ceph-csi-driver
+  chart:
+    spec:
+      chart: ceph-csi-driver
+      version: 1.0.4
+      sourceRef:
+        kind: HelmRepository
+        name: ceph-csi-driver
   interval: 1h
   values:
     operatorConfig:
