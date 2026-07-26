@@ -8,7 +8,7 @@ spec:
     labels:
       app.kubernetes.io/name: ceph-csi-driver
   interval: 1h
-  path: ./kubernetes/apps/ceph-csi-driver/operator
+  path: ./kubernetes/apps/rook-ceph/ceph-csi-driver/operator
   prune: true
   sourceRef:
     kind: GitRepository
