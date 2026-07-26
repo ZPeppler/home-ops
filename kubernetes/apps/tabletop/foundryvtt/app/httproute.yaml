@@ -5,7 +5,7 @@ metadata:
   name: foundryvtt
 spec:
   hostnames:
-    - fvtt.apps.${SECRET_DOMAIN}
+    - fvtt-apps.${SECRET_DOMAIN}
   parentRefs:
     - name: envoy-internal
       namespace: network
