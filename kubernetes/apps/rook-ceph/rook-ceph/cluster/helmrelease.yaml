@@ -24,6 +24,8 @@ spec:
       crashCollector:
         disable: false
       csi:
+        csiAddons:
+          enabled: true
         readAffinity:
           enabled: true
       dashboard:
