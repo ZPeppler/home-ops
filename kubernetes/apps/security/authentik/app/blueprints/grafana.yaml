@@ -30,7 +30,7 @@ entries:
     redirect_uris:
       - matching_mode: strict
         redirect_uri_type: authorization
-        url: https://grafana.fade-lab.com/login/generic_oauth
+        url: https://grafana.${SECRET_DOMAIN}/login/generic_oauth
 
     grant_types:
       - authorization_code
@@ -64,7 +64,7 @@ entries:
     policy_engine_mode: any
     meta_description: ""
     meta_icon: ""
-    meta_launch_url: https://grafana.fade-lab.com
+    meta_launch_url: https://grafana.${SECRET_DOMAIN}
     meta_publisher: ""
     meta_hide: false
     open_in_new_tab: false
