@@ -8,7 +8,7 @@ resources:
   - ./helmrelease.yaml
   - ./httproute.yaml
 configMapGenerator:
-  - name: blueprints-test
+  - name: authentik-blueprints
     files:
       - ./blueprints/grafana.yaml
 generatorOptions:
