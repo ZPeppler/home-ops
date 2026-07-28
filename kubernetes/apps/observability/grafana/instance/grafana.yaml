@@ -26,6 +26,9 @@ spec:
       angular_support_enabled: "true"
     server:
       enable_gzip: "true"
+      domain: grafana.${SECRET_DOMAIN}
+      root_url: https://grafana.${SECRET_DOMAIN}
+      enforce_domain: "true"
   disableDefaultAdminSecret: true
   disableDefaultSecurityContext: All
   deployment:
