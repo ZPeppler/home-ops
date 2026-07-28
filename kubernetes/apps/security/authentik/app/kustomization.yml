@@ -7,3 +7,9 @@ resources:
   - ./helmrepository.yaml
   - ./helmrelease.yaml
   - ./httproute.yaml
+configMapGenerator:
+  - name: blueprints-test
+    files:
+      - ./blueprints/grafana.yaml
+generatorOptions:
+  disableNameSuffixHash: true
