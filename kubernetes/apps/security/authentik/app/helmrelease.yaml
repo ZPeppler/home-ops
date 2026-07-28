@@ -32,3 +32,19 @@ spec:
 
     postgresql:
         enabled: false
+
+    server:
+      env:
+        - name: GRAFANA_CLIENT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: authentik-grafana-secret
+              key: GRAFANA_CLIENT_SECRET
+
+    worker:
+      env:
+        - name: GRAFANA_CLIENT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: authentik-grafana-secret
+              key: GRAFANA_CLIENT_SECRET
