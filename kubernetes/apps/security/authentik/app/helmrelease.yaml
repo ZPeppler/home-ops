@@ -25,5 +25,15 @@ spec:
     authentik:
         postgresql:
             host: postgres-rw.database.svc.cluster.local
+    server:
+      volumes:
+        - name: blueprints
+          configMap:
+            name: authentik-blueprints
+
+    volumeMounts:
+      - name: blueprints
+        mountPath: /blueprints/custom
+
     postgresql:
         enabled: false
