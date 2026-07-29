@@ -1,19 +1,19 @@
 version: 1
 
 metadata:
-  name: coder-oidc
+  name: harbor-oidc
 
 entries:
-- id: coder-provider
+- id: harbor-provider
   model: authentik_providers_oauth2.oauth2provider
   identifiers:
-    name: Provider for Coder
+    name: Provider for Harbor
   attrs:
-    name: Provider for Coder
+    name: Provider for Harbor
 
     client_type: "confidential"
-    client_id: coder
-    client_secret: !Env CODER_CLIENT_SECRET
+    client_id: harbor
+    client_secret: !Env HARBOR_CLIENT_SECRET
 
     authorization_flow: !Find
       - authentik_flows.flow
@@ -30,7 +30,7 @@ entries:
     redirect_uris:
       - matching_mode: strict
         redirect_uri_type: authorization
-        url: https://coder.${SECRET_DOMAIN}/login/generic_oauth
+        url: https://harbor.${SECRET_DOMAIN}/login/generic_oauth
 
     grant_types:
       - authorization_code
@@ -56,15 +56,15 @@ entries:
 
 - model: authentik_core.application
   identifiers:
-    slug: coder
+    slug: harbor
   attrs:
-    name: Coder
-    slug: coder
-    provider: !KeyOf coder-provider
+    name: Harbor
+    slug: harbor
+    provider: !KeyOf harbor-provider
     policy_engine_mode: any
     meta_description: ""
     meta_icon: ""
-    meta_launch_url: https://coder.${SECRET_DOMAIN}
+    meta_launch_url: https://harbor.${SECRET_DOMAIN}
     meta_publisher: ""
     meta_hide: false
     open_in_new_tab: false

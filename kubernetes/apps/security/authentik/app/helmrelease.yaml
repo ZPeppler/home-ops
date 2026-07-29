@@ -45,6 +45,11 @@ spec:
             secretKeyRef:
               name: authentik-coder-secret
               key: CODER_CLIENT_SECRET
+        - name: HARBOR_CLIENT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: authentik-harbor-secret
+              key: HARBOR_CLIENT_SECRET
 
     worker:
       env:
@@ -58,3 +63,8 @@ spec:
             secretKeyRef:
               name: authentik-coder-secret
               key: CODER_CLIENT_SECRET
+        - name: HARBOR_CLIENT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: authentik-harbor-secret
+              key: HARBOR_CLIENT_SECRET

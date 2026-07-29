@@ -12,5 +12,6 @@ configMapGenerator:
     files:
       - ./blueprints/coder.yaml
       - ./blueprints/grafana.yaml
+      - ./blueprints/harbor.yaml
 generatorOptions:
   disableNameSuffixHash: true
