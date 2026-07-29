@@ -40,6 +40,11 @@ spec:
             secretKeyRef:
               name: authentik-grafana-secret
               key: GRAFANA_CLIENT_SECRET
+        - name: CODER_CLIENT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: authentik-coder-secret
+              key: CODER_CLIENT_SECRET
 
     worker:
       env:
@@ -48,3 +53,8 @@ spec:
             secretKeyRef:
               name: authentik-grafana-secret
               key: GRAFANA_CLIENT_SECRET
+        - name: CODER_CLIENT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: authentik-coder-secret
+              key: CODER_CLIENT_SECRET
