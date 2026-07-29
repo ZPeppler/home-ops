@@ -30,7 +30,7 @@ entries:
     redirect_uris:
       - matching_mode: strict
         redirect_uri_type: authorization
-        url: https://grafana.${SECRET_DOMAIN}/login/generic_oauth
+        url: https://coder.${SECRET_DOMAIN}/login/generic_oauth
 
     grant_types:
       - authorization_code
