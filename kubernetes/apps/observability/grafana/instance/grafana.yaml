@@ -14,6 +14,19 @@ spec:
       reporting_enabled: "false"
     auth:
       disable_login_form: "false"
+    auth.generic_oauth:
+      enabled: true
+      name: "Authentik-SSO"
+      allow_sign_up: true
+      client_id: "grafana"
+      scopes: "openid profile email groups"
+      auth_url: "https://auth.${SECRET_DOMAIN}/application/o/authorize/"
+      token_url: "https://auth.${SECRET_DOMAIN}/application/o/token/"
+      api_url: "https://auth.${SECRET_DOMAIN}/application/o/userinfo/"
+      login_attribute_path: "preferred_username"
+      name_attribute_path: "name"
+      groups_attribute_path: "groups"
+      role_attribute_path: "contains(groups, 'grafana-admins') && 'Admin' || contains(groups, 'grafana-editors') && 'Editor' || 'Viewer'"
     log:
       mode: console
     metrics:
@@ -50,6 +63,11 @@ spec:
                     secretKeyRef:
                       name: grafana-admin-secret
                       key: admin-user
+                - name: GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET
+                  valueFrom:
+                    secretKeyRef:
+                      name: grafana-admin-secret
+                      key: client-secret
               securityContext:
                 allowPrivilegeEscalation: false
                 readOnlyRootFilesystem: true
