@@ -23,15 +23,21 @@ spec:
       targetPath: authentik.secret_key
   values:
     authentik:
-        postgresql:
-            host: postgres-rw.database.svc.cluster.local
+      postgresql:
+        host: postgres-rw.database.svc.cluster.local
+      redis:
+        host: dragonfly-operator.database.svc.clusterlocal
+        db: 1
+        port: 6379
 
     blueprints:
       configMaps:
         - authentik-blueprints
 
     postgresql:
-        enabled: false
+      enabled: false
+    redis:
+      enabled: false
 
     server:
       env:
@@ -40,11 +46,6 @@ spec:
             secretKeyRef:
               name: authentik-grafana-secret
               key: GRAFANA_CLIENT_SECRET
-        - name: CODER_CLIENT_SECRET
-          valueFrom:
-            secretKeyRef:
-              name: authentik-coder-secret
-              key: CODER_CLIENT_SECRET
         - name: HARBOR_CLIENT_SECRET
           valueFrom:
             secretKeyRef:
@@ -60,11 +61,6 @@ spec:
             secretKeyRef:
               name: authentik-grafana-secret
               key: GRAFANA_CLIENT_SECRET
-        - name: CODER_CLIENT_SECRET
-          valueFrom:
-            secretKeyRef:
-              name: authentik-coder-secret
-              key: CODER_CLIENT_SECRET
         - name: HARBOR_CLIENT_SECRET
           valueFrom:
             secretKeyRef:
