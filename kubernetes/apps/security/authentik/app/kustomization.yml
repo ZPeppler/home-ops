@@ -10,6 +10,7 @@ resources:
 configMapGenerator:
   - name: authentik-blueprints
     files:
+      - ./blueprints/flux.yaml
       - ./blueprints/grafana.yaml
 generatorOptions:
   disableNameSuffixHash: true
