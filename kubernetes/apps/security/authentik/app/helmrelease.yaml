@@ -52,6 +52,8 @@ spec:
               key: HARBOR_CLIENT_SECRET
 
     worker:
+      annotations:
+        reloader.stakater.com/auto: "true"
       env:
         - name: GRAFANA_CLIENT_SECRET
           valueFrom:
