@@ -49,6 +49,11 @@ spec:
             secretKeyRef:
               name: authentik-harbor-secret
               key: HARBOR_CLIENT_SECRET
+        - name: FLUX_CLIENT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: authentik-flux-secret
+              key: FLUX_CLIENT_SECRET
 
     worker:
       deploymentAnnotations:
@@ -64,3 +69,8 @@ spec:
             secretKeyRef:
               name: authentik-harbor-secret
               key: HARBOR_CLIENT_SECRET
+        - name: FLUX_CLIENT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: authentik-flux-secret
+              key: FLUX_CLIENT_SECRET
