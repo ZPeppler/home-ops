@@ -12,7 +12,7 @@ entries:
     name: Provider for Flux-Operator
 
     client_type: "confidential"
-    client_id: flux
+    client_id: flux-operator
     client_secret: !Env FLUX_CLIENT_SECRET
 
     authorization_flow: !Find
