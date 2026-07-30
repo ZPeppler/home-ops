@@ -32,4 +32,14 @@ spec:
         value: Log in with authentik
       - name: CODER_OIDC_ICON_URL
         value: https://authentik.company/static/dist/assets/icons/icon.png
+      - name: CODER_OIDC_SCOPES
+        value: openid,profile,email,offline_access
+      - name: CODER_OIDC_EMAIL_FIELD
+        value: email
+      - name: CODER_OIDC_IGNORE_EMAIL_VERIFIED
+        value: false
+      - name: CODER_OIDC_USERNAME_FIELD
+        value: preferred_username
+      - name: CODER_DISABLE_PASSWORD_AUTH
+        value: false
     envUseClusterAccessURL: false
