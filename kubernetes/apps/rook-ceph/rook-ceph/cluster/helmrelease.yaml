@@ -14,13 +14,6 @@ spec:
       createPrometheusRules: true
     toolbox:
       enabled: true
-    route:
-      dashboard:
-        hostname: ["rook.${SECRET_DOMAIN}"]
-        parentRefs:
-          - name: envoy-external
-            namespace: network
-            sectionName: https
     cephClusterSpec:
       cleanupPolicy:
         wipeDevicesFromOtherClusters: true
