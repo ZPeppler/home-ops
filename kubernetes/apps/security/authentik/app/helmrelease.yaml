@@ -26,7 +26,7 @@ spec:
       postgresql:
         host: postgres-rw.database.svc.cluster.local
       redis:
-        host: dragonfly-operator.database.svc.clusterlocal
+        host: dragonfly.database.svc.clusterlocal
         db: 1
         port: 6379
 
