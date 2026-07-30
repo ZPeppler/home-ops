@@ -8,6 +8,21 @@ spec:
     kind: OCIRepository
     name: flux-operator
   interval: 1h
+  valuesFrom:
+    - kind: Secret
+      name: flux-operator-admin-secret
+      valuesKey: client-secret
+      targetPath: web.config.authentication.oauth2.clientSecret
   values:
     serviceMonitor:
       create: true
+
+    web:
+      config:
+        baseURL: "https://flux.${SECRET_DOMAIN}"
+        authentication:
+          type: OAuth2
+          oauth2:
+            provider: OIDC
+            clientID: flux-operator
+            issuerURL: "https://auth.${SECRET_DOMAIN}/application/o/flux"
