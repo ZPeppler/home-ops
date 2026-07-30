@@ -17,4 +17,13 @@ spec:
           secretKeyRef:
             name: coder-secret
             key: CODER_PG_CONNECTION_URL
+      - name: CODER_OIDC_ISSUER_URL
+        value: https://auth.${SECRET_DOMAIN}/application/o/coder
+      - name: CODER_OIDC_CLIENT_ID
+        value: coder
+      - name: CODER_OIDC_CLIENT_SECRET
+        valueFrom:
+          secretKeyRef:
+            name: coder-secret
+            key: CLIENT_SECRET
     envUseClusterAccessURL: false

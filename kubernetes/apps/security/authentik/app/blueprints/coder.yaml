@@ -30,7 +30,7 @@ entries:
     redirect_uris:
       - matching_mode: strict
         redirect_uri_type: authorization
-        url: https://coder.${SECRET_DOMAIN}/login/generic_oauth
+        url: https://coder.${SECRET_DOMAIN}/api/v2/users/oidc/callback
 
     grant_types:
       - authorization_code
