@@ -12,15 +12,6 @@ spec:
         kind: HelmRepository
         name: authentik
   interval: 30m
-  valuesFrom:
-    - kind: Secret
-      name: authentik-secret
-      valuesKey: pg_password
-      targetPath: authentik.postgresql.password
-    - kind: Secret
-      name: authentik-secret
-      valuesKey: secret_key
-      targetPath: authentik.secret_key
   values:
     authentik:
       postgresql:
@@ -33,6 +24,13 @@ spec:
     blueprints:
       configMaps:
         - authentik-blueprints
+
+    global:
+      deploymentStrategy:
+        type: RollingUpdate
+      envFrom:
+        - secretRef:
+            name: authentik-secret
 
     postgresql:
       enabled: false
