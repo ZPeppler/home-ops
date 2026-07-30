@@ -26,4 +26,10 @@ spec:
           secretKeyRef:
             name: coder-secret
             key: CLIENT_SECRET
+      - name: CODER_OIDC_EMAIL_DOMAIN
+        value: fade-lab.com
+      - name: CODER_OIDC_SIGN_IN_TEXT
+        value: Log in with authentik
+      - name: CODER_OIDC_ICON_URL
+        value: https://authentik.company/static/dist/assets/icons/icon.png
     envUseClusterAccessURL: false
