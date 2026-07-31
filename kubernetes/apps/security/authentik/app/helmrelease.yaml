@@ -74,3 +74,28 @@ spec:
             secretKeyRef:
               name: authentik-flux-secret
               key: FLUX_CLIENT_SECRET
+      livenessProbe:
+        initialDelaySeconds: 120
+        periodSeconds: 30
+        timeoutSeconds: 30
+        failureThreshold: 5
+      readinessProbe:
+        initialDelaySeconds: 120
+        periodSeconds: 30
+        timeoutSeconds: 30
+        failureThreshold: 5
+      startupProbe:
+        initialDelaySeconds: 30
+        periodSeconds: 10
+        timeoutSeconds: 30
+        failureThreshold: 30
+      resources:
+        requests:
+          cpu: 100m
+          memory: 512Mi
+        limits:
+          cpu: 750m
+          memory: 1Gi
+    prometheus:
+      rules:
+        enabled: true #
