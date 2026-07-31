@@ -13,4 +13,8 @@ spec:
     - backendRefs:
         - name: headlamp
           namespace: observability
-          port: 4466
+          port: 80
+      matches:
+        - path:
+            type: PathPrefix
+            value: /
