@@ -59,12 +59,8 @@ spec:
     clusterRoleBinding:
       create: false
     config:
+      baseurl: "https://headlamp.fade-lab.com"
       pluginsDir: /build/plugins
-      oidc:
-        clientID: "<YOUR-CLIENT-ID>"
-        clientSecret: "<YOUR-CLIENT-SECRET>"
-        issuerURL: "<YOUR-DEX-URL>"
-        scopes: "email"
     podAnnotations:
       reloader.stakater.com/auto: "true"
     service:
