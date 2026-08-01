@@ -11,4 +11,4 @@ spec:
     operation: copy
   ref:
     tag: 2.4.1
-  url: oci://registry-1.docker.io/1password/connec
+  url: oci://ghcr.io/1password/connect
