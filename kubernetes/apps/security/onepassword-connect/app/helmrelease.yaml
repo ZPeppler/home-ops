@@ -9,11 +9,6 @@ spec:
     kind: OCIRepository
     name: onepassword-connect
   interval: 1h
-  valuesFrom:
-    - kind: Secret
-      name: onepassword-secret
-      valuesKey: 1password-credentials.json
-      targetPath: connect.credentials
   values:
     connect:
       credentialsName: onepassword-secret
