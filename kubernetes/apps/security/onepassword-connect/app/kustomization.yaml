@@ -6,3 +6,4 @@ resources:
   - ./clustersecretstore.yaml
   - ./externalsecret.yaml
   - ./ocirepository.yaml
+  - ./helmrepository.yaml
