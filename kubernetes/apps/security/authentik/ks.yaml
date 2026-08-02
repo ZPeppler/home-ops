@@ -7,9 +7,21 @@ spec:
   commonMetadata:
     labels:
       app.kubernetes.io/name: authentik
+  components:
+    - ../../../../components/dragonfly
+  dependsOn:
+    - name: dragonfly-operator
+      namespace: database
+  healthCheckExprs:
+    - apiVersion: dragonflydb.io/v1alpha1
+      kind: Dragonfly
+      failed: status.phase != 'ready'
+      current: status.phase == 'ready'
   interval: 1h
   path: ./kubernetes/apps/security/authentik/app
   postBuild:
+    substitute:
+      APP: authentik
     substituteFrom:
       - name: cluster-secrets
         kind: Secret

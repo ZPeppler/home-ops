@@ -17,7 +17,7 @@ spec:
       postgresql:
         host: postgres-rw.database.svc.cluster.local
       redis:
-        host: dragonfly.database.svc.clusterlocal
+        host: authentik-dragonfly
         db: 1
         port: 6379
 
