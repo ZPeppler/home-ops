@@ -1,4 +1,3 @@
----
 # yaml-language-server: $schema=https://json.schemastore.org/kustomization
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
@@ -7,9 +6,5 @@ resources:
   - ./helmrepository.yaml
   - ./helmrelease.yaml
   - ./httproute.yaml
-configMapGenerator:
-  - name: authentik-blueprints
-    files:
-      - ./blueprints/grafana.yaml
 generatorOptions:
   disableNameSuffixHash: true
