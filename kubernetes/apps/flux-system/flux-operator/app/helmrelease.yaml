@@ -10,8 +10,8 @@ spec:
   interval: 1h
   valuesFrom:
     - kind: Secret
-      name: flux-operator-admin-secret
-      valuesKey: client-secret
+      name: flux-operator-kanidm-oauth2-credentials
+      valuesKey: FLUX_OPERATOR_SECRET_KEY
       targetPath: web.config.authentication.oauth2.clientSecret
   values:
     serviceMonitor:
