@@ -21,7 +21,6 @@ spec:
         - profile
         - email
         - groups
-        - offline_access
   secretKeyAliases:
     clientId:
       - ${KANIDM_CLIENT_ID_KEY}
