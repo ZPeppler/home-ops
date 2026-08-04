@@ -3,7 +3,7 @@
 apiVersion: kaniop.rs/v1beta1
 kind: KanidmGroup
 metadata:
-  name: admins
+  name: admin
 spec:
   kanidmRef:
     name: kanidm
