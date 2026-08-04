@@ -5,6 +5,4 @@ kind: Kustomization
 resources:
   - ./certificate.yaml
   - ./externalsecret.yaml
-  - ./groups.yaml
   - ./kanidm.yaml
-  - ./persons.yaml
