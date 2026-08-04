@@ -16,7 +16,7 @@ spec:
       APP: *app
       KANIDM_APP_ICON: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/flux-cd.svg
       KANIDM_CLIENT_ID_KEY: *app
-      KANIDM_CLIENT_SECRET_KEY: "2LkP480IeJQxB/VIaHAlJe20nDuADRUKrEsqDhsWhXGqhVm9LXIUipB/iDulq/E9"
+      KANIDM_CLIENT_SECRET_KEY: FLUX_OPERATOR_SECRET_KEY
       KANIDM_GROUP: k8s-admin
       KANIDM_ORIGIN_HOST: flux.fade-lab.com
       KANIDM_REDIRECT_PATH: oauth2/callback
