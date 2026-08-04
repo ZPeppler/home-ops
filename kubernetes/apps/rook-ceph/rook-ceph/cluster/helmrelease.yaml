@@ -47,6 +47,9 @@ spec:
           - name: "talos-w3"
             devices:
               - name: "sdb"
+          - name: "talos-wl1"
+            devices:
+              - name: "/dev/disk/by-id/ata-SanDisk_SDSSDH3_2T00_230605A00A98"
 
     cephBlockPools:
       - name: ceph-blockpool
