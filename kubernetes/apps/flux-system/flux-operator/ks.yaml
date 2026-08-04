@@ -5,7 +5,7 @@ metadata:
   name: &app flux-operator
 spec:
   components:
-    - ../../../../components/kandim
+    - ../../../../components/kanidm
   interval: 1h
   path: ./kubernetes/apps/flux-system/flux-operator/app
   postBuild:
