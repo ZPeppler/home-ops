@@ -18,7 +18,7 @@ spec:
       KANIDM_CLIENT_ID_KEY: *app
       KANIDM_CLIENT_SECRET_KEY: client-secret
       KANIDM_GROUP: k8s-admin
-      KANIDM_ORIGIN_HOST: flux.${SECRET_DOMAIN}
+      KANIDM_ORIGIN_HOST: flux.fade-lab.com
       KANIDM_REDIRECT_PATH: oauth2/callback
   prune: true
   sourceRef:
