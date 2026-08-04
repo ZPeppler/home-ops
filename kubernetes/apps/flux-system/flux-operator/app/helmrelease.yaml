@@ -25,4 +25,4 @@ spec:
           oauth2:
             provider: OIDC
             clientID: flux-operator
-            issuerURL: "https://idm.${SECRET_DOMAIN}/oauth2/openid/flux-operator"
+            issuerURL: "https://idm.${SECRET_DOMAIN}/oauth2/openid/flux-operator/.well-known/openid-configuration"
