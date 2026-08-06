@@ -32,7 +32,7 @@ spec:
           - name: pg_autoscaler
             enabled: true
       placement:
-        mon:
+        all:
           nodeAffinity:
             requiredDuringSchedulingIgnoredDuringExecution:
               nodeSelectorTerms:
