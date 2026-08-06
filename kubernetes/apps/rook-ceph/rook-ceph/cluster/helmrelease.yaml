@@ -31,6 +31,18 @@ spec:
         modules:
           - name: pg_autoscaler
             enabled: true
+      placement:
+        mon:
+          nodeAffinity:
+            requiredDuringSchedulingIgnoredDuringExecution:
+              nodeSelectorTerms:
+                - matchExpressions:
+                    - key: kubernetes.io/hostname
+                      operator: In
+                      values:
+                        - talos-w1
+                        - talos-w2
+                        - talos-wl1
       network:
         connection:
           requireMsgr2: true
