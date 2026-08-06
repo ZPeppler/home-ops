@@ -40,7 +40,7 @@ spec:
                     - key: kubernetes.io/hostname
                       operator: In
                       values:
-                        - talos-w1
+                        - talos-w2
                         - talos-wl1
                         - talos-wl2
       network:
