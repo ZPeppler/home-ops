@@ -34,7 +34,7 @@ spec:
       placement:
         mon:
           nodeAffinity:
-            requiredDuringSchedulingIgnoreDuringExecution:
+            requiredDuringSchedulingIgnoredDuringExecution:
               nodeSelectorTerms:
                 - matchExpressions:
                     - key: kubernetes.io/hostname
