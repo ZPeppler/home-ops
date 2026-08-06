@@ -109,23 +109,6 @@ nodes:
           - network: "0.0.0.0/0"
             gateway: "192.168.1.1"
         mtu: 1500
-  - hostname: "talos-w3"
-    ipAddress: "192.168.1.250"
-    installDisk: "/dev/sda"
-    machineSpec:
-      secureboot: false
-    talosImageURL: factory.talos.dev/installer/ddf38e55e30aa9b2bb0b765054ed63444dc00244ab8bb4ad4ad92486602285f8
-    controlPlane: false
-    networkInterfaces:
-      - deviceSelector:
-          hardwareAddr: "bc:24:11:da:4b:b5"
-        dhcp: false
-        addresses:
-          - "192.168.1.250/24"
-        routes:
-          - network: "0.0.0.0/0"
-            gateway: "192.168.1.1"
-        mtu: 1500
   - hostname: "talos-wl1"
     ipAddress: "192.168.1.150"
     installDisk: "/dev/disk/by-id/nvme-SK_hynix_BC501_HFM512GDJTNG-8310A_NJ97N511413207C50"
