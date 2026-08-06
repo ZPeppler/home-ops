@@ -31,9 +31,8 @@ spec:
         modules:
           - name: pg_autoscaler
             enabled: true
-      mon:
-        count: 3
-        placement:
+      placement:
+        mon:
           nodeAffinity:
             requiredDuringSchedulingIgnoreDuringExecution:
               nodeSelectorTerms:
